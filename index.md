@@ -4,21 +4,25 @@ layout: homepage
 
 ## About Me
 
-I am researcher in computer vision, affiliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) at the [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/). I am supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en){:target="_blank"}
+I am researcher in computer vision, affiliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/){:target="_blank"} at the [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}. I am supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en){:target="_blank"}.
 
-Previously, I completed my Master's in Image Processing and Computer Vision
+Previously, I completed my master's degree in [Image Processing and Computer Vision (IPCV)](http://ipcv.eu/){:target="_blank"} funded by the Erasmus Mundus Joint Master's Degree (EMJMD) scholarship program. During the master's program
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Computer Vision:** image and video understanding, multimodal learning
+- **Machine Learning:** self-supervised learning, out-of-distribution generalization
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Apr. 2021]** I have started working as a researcher at [MBZUAI](https://mbzuai.ac.ae/){:target="_blank"}. I am supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en){:target="_blank"} and would work on multimodal video understanding.
+- **[July. 2021]** I have been accepted in the ETH Robotics Summer School and Symposium
+- **[June. 2021]** I have defended my master's thesis and graduated from the [IPCV](http://ipcv.eu/){:target="_blank"} master's program.
+- **[May. 2021]** Our paper on synthetic data for object detection is accepted to CVPR 2021 CV4Animals workshop.
+- **[Feb. 2021]** I have started my master's thesis in the [CVLAB](https://www.epfl.ch/labs/cvlab/){:target="_blank"} at EPFL supervised by [Dr. Mathieu Salzmann](https://scholar.google.com/citations?user=n-B0jr4AAAAJ&hl=en&oi=ao){:target="_blank"}. I will be working on automated typography analysis on figurative content.
+- **[July. 2020]** I have started a remote research internship at the [Empathic Computing Lab](http://empathiccomputing.org/){:target="_blank"} supervised by [Dr. Mark Billinghurst](https://scholar.google.com/citations?user=S-J_ItYAAAAJ&hl=en){:target="_blank"}
+- **[Sep. 2019]** I started my master's degree in [Image Processing and Computer Vision (IPCV)](http://ipcv.eu/){:target="_blank"} funded by the Erasmus Mundus Joint Master's Degree (EMJMD) scholarship program.
+- **[June. 2019]** I completed my undergraduate degree in Electrical Engineering with a Minor in computer science. Graduated first in class with the Dean's Medal.
 
 {% include_relative _includes/publications.md %}
 
