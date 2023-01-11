@@ -52,7 +52,7 @@
     <div class="author">Nastaran Saffaryazdi, <strong>Syed Talal Wasim</strong>, Kuldeep Dileep, Alireza Farrokhi Nia, Suranga Nanayakkara, Elizabeth Broadbent, Mark Billinghurst</div>
     <div class="periodical"><em>Frontiers in Psychology, 2022.</em></div>
     <div class="links">
-      <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2022.864047/full" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Publication</a>
+      <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2022.864047/full" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PUBLICATION</a>
     </div>
   </div>
 </div>
@@ -68,9 +68,9 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Sim-to-Real Transfer for Object Detection and Localization on Animals</div>
     <div class="author"><strong>Syed Talal Wasim</strong>, Syed Nouman Hasany, Kainat Abbasi, Huda Feroz, Anisa Aisha Ahmed, Mudasir Hanif Shaikh, Muhammad Farhan</div>
-    <div class="periodical"><em>Frontiers in Psychology, 2022.</em></div>
+    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition, CV4Animals Workshop</em></div>
     <div class="links">
-      <a href="assets/paper_pdfs/cv4animals.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+      <a href="assets/paper_pdfs/cv4animals.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">POSTER</a>
     </div>
   </div>
 </div>
