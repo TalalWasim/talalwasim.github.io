@@ -10,6 +10,8 @@ Previously, I completed my master's degree in [Image Processing and Computer Vis
 
 I hold an undergraduate degree in Electrical Engineering, with a minor in computer science, from [Habib University](https://habib.edu.pk/){:target="_blank"} in Karachi, Paksitan.
 
+My previous website listing high-school, undrgraduate and graduate courses and projects can be found at [talalwasim.weebly.com](https://talalwasim.weebly.com/){:target="_blank"}
+
 ## Research Interests
 
 - **Computer Vision:** image and video understanding, multimodal learning
