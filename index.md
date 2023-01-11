@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am researcher in computer vision, affiliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) at the [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/).
+I am researcher in computer vision, affiliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) at the [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/). I am supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en){:target="_blank"}
+
+Previously, I completed my Master's in Image Processing and Computer Vision
 
 ## Research Interests
 
