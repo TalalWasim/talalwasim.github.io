@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am researcher in computer vision, affiliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) at the [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/).
 
 ## Research Interests
 
