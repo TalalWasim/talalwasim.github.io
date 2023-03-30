@@ -13,7 +13,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting</div>
     <div class="author"><strong>Syed Talal Wasim</strong>, Muzammal Naseer, Salman Khan, Fahad Khan, Mubarak Shah</div>
-    <div class="periodical"><em>Under Review, 2022.</em></div>
+    <div class="periodical"><em>CVPR, 2023.</em></div>
   </div>
 </div>
 </li>
@@ -30,7 +30,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Analyzing Poster Collections Using Automatic Serif Classification And Font Similarities</div>
     <div class="author"><strong>Syed Talal Wasim</strong>, Romain Collaud, Lara Défayes, Nicolas Henchoz, Mathieu Salzmann, Delphine Ribes</div>
-    <div class="periodical"><em>Under Review, 2022.</em></div>
+    <div class="periodical"><em>ournal of Data Mining in Digital Humanities (JDMDH), 2023.</em></div>
     <div class="links">
       <a href="assets/paper_pdfs/gest.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
     </div>
