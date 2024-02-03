@@ -51,7 +51,7 @@
     <div class="author">Muhammad Uzair Khattak*, <strong>Syed Talal Wasim</strong>*, Muzammal Naseer, Salman Khan, Ming-Hsuan Yang, Fahad Shahbaz Khan</div>
     <div class="periodical"><em>ICCV, 2023.</em></div>
     <div class="links">
-      <a href="https://arxiv.org/abs/2307.06948" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>\
+      <a href="https://arxiv.org/abs/2307.06948" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://github.com/muzairkhattak/PromptSRC" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
     </div>
   </div>
