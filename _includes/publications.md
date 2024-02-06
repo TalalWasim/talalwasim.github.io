@@ -89,8 +89,8 @@
     <div class="author"><strong>Syed Talal Wasim</strong>, Romain Collaud, Lara Défayes, Nicolas Henchoz, Mathieu Salzmann, Delphine Ribes</div>
     <div class="periodical"><em>Journal of Data Mining in Digital Humanities (JDMDH), 2023.</em></div>
     <div class="links">
-      <a href="https://d1wqtxts1xzle7.cloudfront.net/107524333/WasimEtAl_Toward_Automatic_Typography_Analysis__Serif_Classification_and_Font_Similarities-libre.pdf?1700401396=&response-content-disposition=inline%3B+filename%3DToward_Automatic_Typography_Analysis_Ser.pdf&Expires=1706985927&Signature=K8VG-MRcZkSexcHqTW8S8k33fb0xOID6NJdUImpP4LbvHbTj8vBtL0bB2emVQz6mHdJw3sz3HddrQ3p4JXWX-c1lmKqfvN7l6EKXsW3UGB-cEwiWUW8Law4FKOctwVUew7TEc~90W9kQnXInw27LVe7bhBSqByBBau4eH8QnMAjwmixuFa5W2~DtFCwkrJm053I8ck5l1Pe9nphS4zee1ieLKF-TQSY3-VsxhdYnqCQbyXLPBSKwudO8Rer5Ttt9t2C-jLYb3shxN5S0Mt-W8nrr3aPF~qbFeHccJtiVN5bM9wQq9hibW9rzX7t5N33OYGUOqbFAnGy4nLc8AVSWbg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <a href="https://jdmdh.episciences.org/paper/view/id/13008" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://github.com/TalalWasim/GEST-Serif" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
     </div>
   </div>
 </div>
