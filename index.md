@@ -16,7 +16,7 @@ My previous website listing high-school, undrgraduate and graduate courses and p
 
 ## Research Interests
 
-- **Computer Vision:** image and video understanding, multimodal learning
+- **Computer Vision:** image and video understanding, action anticipation, multimodal learning
 - **Machine Learning:** self-supervised learning, out-of-distribution generalization
 
 ## News
