@@ -12,6 +12,7 @@
   <li><autocolor>Computer Vision and Pattern Recognition (CVPR)</autocolor></li>
   <li><autocolor>European Conference on Computer Vision (ECCV)</autocolor></li>
   <li><autocolor>Asian Conference on Computer Vision (ACCV)</autocolor></li>
+  <li><autocolor>Neural Information Processing Systems (NeurIPS)</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Project Supervision</h4>
