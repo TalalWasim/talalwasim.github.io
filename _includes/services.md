@@ -13,6 +13,8 @@
   <li><autocolor>European Conference on Computer Vision (ECCV)</autocolor></li>
   <li><autocolor>Asian Conference on Computer Vision (ACCV)</autocolor></li>
   <li><autocolor>Neural Information Processing Systems (NeurIPS)</autocolor></li>
+  <li><autocolor>International Conference on Learning Representations (ICLR)</autocolor></li>
+  <li><autocolor>Association for the Advancement of Artificial Intelligence (AAAI)</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Project Supervision</h4>
