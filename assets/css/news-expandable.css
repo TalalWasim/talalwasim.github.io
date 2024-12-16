@@ -17,10 +17,10 @@
     text-decoration: underline;
     text-align: left;
     font-size: 1.0em;
-    margin-top: 5px;
+    margin-top: 1px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #view-more-btn:hover {
-    color: #035fc6;
+    color: #62a6f4;
 }
