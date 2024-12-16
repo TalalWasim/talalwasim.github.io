@@ -9,12 +9,8 @@
 <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 20px;">
-  <li><autocolor>Computer Vision and Pattern Recognition (CVPR)</autocolor></li>
-  <li><autocolor>European Conference on Computer Vision (ECCV)</autocolor></li>
-  <li><autocolor>Asian Conference on Computer Vision (ACCV)</autocolor></li>
-  <li><autocolor>Neural Information Processing Systems (NeurIPS)</autocolor></li>
-  <li><autocolor>International Conference on Learning Representations (ICLR)</autocolor></li>
-  <li><autocolor>Association for the Advancement of Artificial Intelligence (AAAI)</autocolor></li>
+  <li><autocolor>Computer Vision (CVPR, ICCV, ECCV, WACV, ACCV)</autocolor></li>
+  <li><autocolor>Artificial Intelligence and Machine Learning (NeurIPS, ICLR, ICML, AAAI)</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Project Supervision</h4>
