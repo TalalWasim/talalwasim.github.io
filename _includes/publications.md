@@ -46,6 +46,26 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/paper_imgs/arvpt.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">VISAPP</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title">AR-VPT: Simple Auto-Regressive Prompts for Adapting Frozen ViTs to Videos</div>
+    <div class="author">Muhammad Zain Yousuf, <strong>Syed Talal Wasim</strong>, Syed Nouman Hasany, Muhammad Farhan</div>
+    <div class="periodical"><em>VISAPP, 2024.</em></div>
+    <div class="links">
+      <a href="https://doi.org/10.5220/0012392000003660" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/text_guided_resilience.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">NeurIPS</abbr>
   </div>
