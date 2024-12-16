@@ -6,6 +6,46 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/paper_imgs/mavos.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">WACV</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Efficient Video Object Segmentation via Modulated Cross-Attention Memory</div>
+    <div class="author">Abdelrahman Shaker, <strong>Syed Talal Wasim</strong>, Martin Danelljan, Salman Khan, Ming-Hsuan Yang and Fahad Shahbaz Khan</div>
+    <div class="periodical"><em>WACV, 2025.</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2403.17937" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://github.com/Amshaker/MAVOS" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/paper_imgs/vgdino.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CVPR</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Video-GroundingDINO: Towards Open-Vocabulary Spatio-Temporal Video Grounding</div>
+    <div class="author"><strong>Syed Talal Wasim</strong>, Muzammal Naseer, Salman Khan, Ming-Hsuan Yang, Fahad Shahbaz Khan</div>
+    <div class="periodical"><em>CVPR, 2024.</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2401.00901" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/text_guided_resilience.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">NeurIPS</abbr>
   </div>
@@ -27,6 +67,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/video-focalnets.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICCV</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition</div>
@@ -46,6 +87,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/promptsrc.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICCV</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Self-regulating Prompts: Foundational Model Adaptation without Forgetting</div>
@@ -65,6 +107,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/vita.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CVPR</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting</div>
@@ -84,6 +127,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/gest.jpg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">JDMDH</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Toward Automatic Typography Analysis: Serif Classification and Font Similarities</div>
@@ -103,6 +147,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/ecl.jpg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Frontiers</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Using Facial Micro-Expressions in Combination With EEG and Physiological Signals for Emotion Recognition</div>
@@ -119,6 +164,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/cv4animals.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CVPRW</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Sim-to-Real Transfer for Object Detection and Localization on Animals</div>
