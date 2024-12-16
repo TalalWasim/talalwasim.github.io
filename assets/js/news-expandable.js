@@ -1,32 +1,39 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Check if the news container and button exist
     const newsContainer = document.getElementById('news-container');
     const viewMoreBtn = document.getElementById('view-more-btn');
-    const initialNewsItems = 5; // Number of news items to show initially
+    
+    if (newsContainer && viewMoreBtn) {
+        const initialNewsItems = 5; // Number of news items to show initially
+        const newsItems = newsContainer.getElementsByTagName('li');
 
-    // Hide news items beyond the initial number
-    const newsItems = newsContainer.getElementsByTagName('li');
-    for (let i = initialNewsItems; i < newsItems.length; i++) {
-        newsItems[i].style.display = 'none';
-    }
-
-    // If there are more news items than initial display
-    if (newsItems.length > initialNewsItems) {
-        viewMoreBtn.style.display = 'block';
-    }
-
-    viewMoreBtn.addEventListener('click', function() {
-        if (this.textContent === 'View More') {
-            // Expand all news items
-            for (let i = initialNewsItems; i < newsItems.length; i++) {
-                newsItems[i].style.display = 'list-item';
-            }
-            this.textContent = 'View Less';
-        } else {
-            // Collapse to initial news items
-            for (let i = initialNewsItems; i < newsItems.length; i++) {
-                newsItems[i].style.display = 'none';
-            }
-            this.textContent = 'View More';
+        // Initially hide items beyond the first 5
+        for (let i = initialNewsItems; i < newsItems.length; i++) {
+            newsItems[i].classList.add('news-item-hidden');
         }
-    });
+
+        // Only show the button if there are more items
+        if (newsItems.length > initialNewsItems) {
+            viewMoreBtn.style.display = 'block';
+        }
+
+        // Add click event listener to the button
+        viewMoreBtn.addEventListener('click', function() {
+            const hiddenItems = newsContainer.getElementsByClassName('news-item-hidden');
+            
+            if (this.textContent === 'View More') {
+                // Show all hidden items
+                while (hiddenItems.length > 0) {
+                    hiddenItems[0].classList.remove('news-item-hidden');
+                }
+                this.textContent = 'View Less';
+            } else {
+                // Hide items beyond the initial number
+                for (let i = initialNewsItems; i < newsItems.length; i++) {
+                    newsItems[i].classList.add('news-item-hidden');
+                }
+                this.textContent = 'View More';
+            }
+        });
+    }
 });
