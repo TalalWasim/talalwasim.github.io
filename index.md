@@ -22,7 +22,9 @@ My previous website listing high-school, undrgraduate and graduate courses and p
 ## News
 <div id="news-container">
 <ul>
-    <li><strong>[Sep. 2024]</strong> Our paper titled "Efficient Video Object Segmentation via Modulated Cross-Attention Memory" is accepted in WACV 2025.</li>
+    <li><strong>[Dec. 2024]</strong> Our paper titled "Efficient Video Object Segmentation via Modulated Cross-Attention Memory" is accepted in WACV 2025.</li>
+    <li><strong>[Sep. 2024]</strong> Two new papers titled "Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models", and "STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection" under review. Preprints to be released soon.</li>
+    <li><strong>[Oct. 2024]</strong> Two new preprints released titled "GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model", and "Distillation-free Scaling of Large SSMs for Images and Videos".</li>
     <li><strong>[Mar. 2024]</strong> Our paper titled "VideoGrounding-DINO: Towards Open-Vocabulary Spatio-Temporal Video Grounding" is accepted in CVPR 2024.</li>
     <li><strong>[Feb. 2024]</strong> My student Muhammad Zain Yousuf's bachelor thesis titled "AR-VPT: Simple Auto-Regressive Prompts for Adapting Frozen ViTs to Videos" is accepted in VISAPP 2024.</li>
     <li><strong>[Jan. 2024]</strong> I started working as a PhD student at the University of Bonn, Germany working on Multimodal Video Understanding.</li>
