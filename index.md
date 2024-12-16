@@ -1,9 +1,5 @@
 ---
 layout: homepage
-js:
-  - /assets/js/news-expandable.js
-css:
-  - /assets/css/news-expandable.css
 ---
 
 ## About Me
