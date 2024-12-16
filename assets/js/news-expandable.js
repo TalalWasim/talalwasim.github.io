@@ -1,39 +1,48 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Check if the news container and button exist
+    console.log('News expandable script loaded');
+    
     const newsContainer = document.getElementById('news-container');
     const viewMoreBtn = document.getElementById('view-more-btn');
     
-    if (newsContainer && viewMoreBtn) {
-        const initialNewsItems = 5; // Number of news items to show initially
-        const newsItems = newsContainer.getElementsByTagName('li');
-
-        // Initially hide items beyond the first 5
-        for (let i = initialNewsItems; i < newsItems.length; i++) {
-            newsItems[i].classList.add('news-item-hidden');
-        }
-
-        // Only show the button if there are more items
-        if (newsItems.length > initialNewsItems) {
-            viewMoreBtn.style.display = 'block';
-        }
-
-        // Add click event listener to the button
-        viewMoreBtn.addEventListener('click', function() {
-            const hiddenItems = newsContainer.getElementsByClassName('news-item-hidden');
-            
-            if (this.textContent === 'View More') {
-                // Show all hidden items
-                while (hiddenItems.length > 0) {
-                    hiddenItems[0].classList.remove('news-item-hidden');
-                }
-                this.textContent = 'View Less';
-            } else {
-                // Hide items beyond the initial number
-                for (let i = initialNewsItems; i < newsItems.length; i++) {
-                    newsItems[i].classList.add('news-item-hidden');
-                }
-                this.textContent = 'View More';
-            }
-        });
+    // Verify elements exist
+    if (!newsContainer) {
+        console.error('News container not found');
+        return;
     }
+    
+    if (!viewMoreBtn) {
+        console.error('View more button not found');
+        return;
+    }
+
+    const initialNewsItems = 5; // Number of news items to show initially
+
+    // Hide news items beyond the initial number
+    const newsItems = newsContainer.getElementsByTagName('li');
+    console.log(`Total news items: ${newsItems.length}`);
+    
+    for (let i = initialNewsItems; i < newsItems.length; i++) {
+        newsItems[i].style.display = 'none';
+    }
+
+    // If there are more news items than initial display
+    if (newsItems.length > initialNewsItems) {
+        viewMoreBtn.style.display = 'block';
+    }
+
+    viewMoreBtn.addEventListener('click', function() {
+        if (this.textContent === 'View More') {
+            // Expand all news items
+            for (let i = initialNewsItems; i < newsItems.length; i++) {
+                newsItems[i].style.display = 'list-item';
+            }
+            this.textContent = 'View Less';
+        } else {
+            // Collapse to initial news items
+            for (let i = initialNewsItems; i < newsItems.length; i++) {
+                newsItems[i].style.display = 'none';
+            }
+            this.textContent = 'View More';
+        }
+    });
 });
