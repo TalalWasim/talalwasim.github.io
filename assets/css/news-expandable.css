@@ -1,14 +1,23 @@
-.news-item-hidden {
-    display: none;
+#news-container {
+    margin-bottom: 15px;
+}
+
+#news-container ul {
+    padding-left: 20px;
+}
+
+#news-container li {
+    margin-bottom: 10px;
 }
 
 #view-more-btn {
     display: none;
-    text-align: center;
-    margin-top: 15px;
-    color: #0366d6;
     cursor: pointer;
+    color: #0366d6;
     text-decoration: underline;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 10px;
 }
 
 #view-more-btn:hover {

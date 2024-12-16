@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const newsContainer = document.getElementById('news-container');
     const viewMoreBtn = document.getElementById('view-more-btn');
     
-    // Verify elements exist
     if (!newsContainer) {
         console.error('News container not found');
         return;
@@ -15,30 +14,30 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
-    const initialNewsItems = 5; // Number of news items to show initially
-
-    // Hide news items beyond the initial number
-    const newsItems = newsContainer.getElementsByTagName('li');
+    const newsItems = newsContainer.querySelectorAll('li');
     console.log(`Total news items: ${newsItems.length}`);
     
+    const initialNewsItems = 5;
+    
+    // Hide excess items
     for (let i = initialNewsItems; i < newsItems.length; i++) {
         newsItems[i].style.display = 'none';
     }
 
-    // If there are more news items than initial display
+    // Show view more button only if there are more items
     if (newsItems.length > initialNewsItems) {
         viewMoreBtn.style.display = 'block';
     }
 
     viewMoreBtn.addEventListener('click', function() {
         if (this.textContent === 'View More') {
-            // Expand all news items
+            // Show all items
             for (let i = initialNewsItems; i < newsItems.length; i++) {
                 newsItems[i].style.display = 'list-item';
             }
             this.textContent = 'View Less';
         } else {
-            // Collapse to initial news items
+            // Hide excess items
             for (let i = initialNewsItems; i < newsItems.length; i++) {
                 newsItems[i].style.display = 'none';
             }
