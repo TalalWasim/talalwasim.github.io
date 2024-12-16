@@ -22,7 +22,9 @@ My previous website listing high-school, undrgraduate and graduate courses and p
 ## News
 <div id="news-container">
 <ul>
-    <li><strong>[Jan. 2024]</strong> I started working as a PhD student at the University of Bonn, Germany working on Video Action Anticipation.</li>
+    <li><strong>[Sep. 2024]</strong> Our paper titled "Efficient Video Object Segmentation via Modulated Cross-Attention Memory" is accepted in WACV 2025.</li>
+    <li><strong>[Mar. 2024]</strong> Our paper titled "VideoGrounding-DINO: Towards Open-Vocabulary Spatio-Temporal Video Grounding" is accepted in CVPR 2024.</li>
+    <li><strong>[Jan. 2024]</strong> I started working as a PhD student at the University of Bonn, Germany working on Multimodal Video Understanding.</li>
     <li><strong>[Oct. 2023]</strong> Our paper titled "Hardware Resilience Properties of Text-Guided Image Classifiers" is accepted in NeurIPS 2023.</li>
     <li><strong>[Aug. 2023]</strong> Our paper titled "Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition" is accepted in ICCV 2023.</li>
     <li><strong>[Aug. 2023]</strong> Our paper titled "Self-regulating Prompts: Foundational Model Adaptation without Forgetting" is accepted in ICCV 2023.</li>
