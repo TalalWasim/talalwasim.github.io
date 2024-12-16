@@ -26,7 +26,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/vpanda.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/paper_imgs/vpanda.jpg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
@@ -186,7 +186,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/promptsrc.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/paper_imgs/promptsrc.jpg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ICCV</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
