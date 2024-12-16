@@ -20,6 +20,7 @@ My previous website listing high-school, undrgraduate and graduate courses and p
 - **Machine Learning:** self-supervised learning, out-of-distribution generalization
 
 ## News
+<div id="news-container">
 - **[Jan. 2024]** I started working as a PhD student at the University of Bonn, Germany working on Video Action Anticipation.
 - **[Oct. 2023]** Our paper titled "Hardware Resilience Properties of Text-Guided Image Classifiers" is accepted in NeurIPS 2023.
 - **[Aug. 2023]** Our paper titled "Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition" is accepted in ICCV 2023.
@@ -35,6 +36,8 @@ My previous website listing high-school, undrgraduate and graduate courses and p
 - **[Jul. 2020]** I started a remote research internship at the [Empathic Computing Lab](http://empathiccomputing.org/){:target="_blank"} supervised by [Dr. Mark Billinghurst](https://scholar.google.com/citations?user=S-J_ItYAAAAJ&hl=en){:target="_blank"}.
 - **[Sep. 2019]** I started my master's degree in [Image Processing and Computer Vision (IPCV)](http://ipcv.eu/){:target="_blank"} funded by the Erasmus Mundus Joint Master's Degree (EMJMD) scholarship program.
 - **[Jun. 2019]** I completed my undergraduate degree in Electrical Engineering with a Minor in computer science. Graduated first in class with the Dean's Medal.
+</div>
+<div id="view-more-btn">View More</div>
 
 {% include_relative _includes/publications.md %}
 

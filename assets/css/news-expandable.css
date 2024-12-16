@@ -1,0 +1,13 @@
+#view-more-btn {
+    display: none;
+    cursor: pointer;
+    color: #0366d6;
+    text-decoration: underline;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#view-more-btn:hover {
+    color: #035fc6;
+}
