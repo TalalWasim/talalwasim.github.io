@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a PhD student, currently affiliated with the Computer Vision Group at the University of Bonn, Germany. I am supervised by [Professor Dr. Jürgen Gall](https://pages.iai.uni-bonn.de/gall_juergen/), and am working in the domain of Long-Term Video Recognition and Anticipation.
+I am a PhD student, currently affiliated with the Computer Vision Group at the University of Bonn, Germany. I am supervised by [Professor Dr. Jürgen Gall](https://pages.iai.uni-bonn.de/gall_juergen/), and am working in the domain of Long-Term Multimodal Video Understanding.
 
 Previously I was a researcher in computer vision, affiliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/){:target="_blank"} at the [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}. I was supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en){:target="_blank"}.
 
@@ -27,7 +27,7 @@ My previous website listing high-school, undrgraduate and graduate courses and p
     <li><strong>[Oct. 2024]</strong> Two new preprints released titled "GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model", and "Distillation-free Scaling of Large SSMs for Images and Videos".</li>
     <li><strong>[Mar. 2024]</strong> Our paper titled "VideoGrounding-DINO: Towards Open-Vocabulary Spatio-Temporal Video Grounding" is accepted in CVPR 2024.</li>
     <li><strong>[Feb. 2024]</strong> My student Muhammad Zain Yousuf's bachelor thesis titled "AR-VPT: Simple Auto-Regressive Prompts for Adapting Frozen ViTs to Videos" is accepted in VISAPP 2024.</li>
-    <li><strong>[Jan. 2024]</strong> I started a PhD at the University of Bonn, Germany working on Multimodal Video Understanding, under the supervision of Professor Dr. Juergen Gall.</li>
+    <li><strong>[Jan. 2024]</strong> I started a PhD at the University of Bonn, Germany working on Long-Term Multimodal Video Understanding, under the supervision of Professor Dr. Juergen Gall.</li>
     <li><strong>[Oct. 2023]</strong> Our paper titled "Hardware Resilience Properties of Text-Guided Image Classifiers" is accepted in NeurIPS 2023.</li>
     <li><strong>[Aug. 2023]</strong> Our paper titled "Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition" is accepted in ICCV 2023.</li>
     <li><strong>[Aug. 2023]</strong> Our paper titled "Self-regulating Prompts: Foundational Model Adaptation without Forgetting" is accepted in ICCV 2023.</li>
