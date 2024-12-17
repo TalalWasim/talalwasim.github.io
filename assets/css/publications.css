@@ -126,3 +126,35 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 150px; width: 350px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+/* Style the BibTeX button to match the "PAPER" and "CODE" links */
+.publications ol.bibliography li .links button.bibtex-btn {
+  background: none; /* Remove default background */
+  color: #000000; /* Match text color of buttons */
+  border: 1px solid #000000; /* Add solid border like other buttons */
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  font-size: 12px; /* Match button font size */
+  cursor: pointer; /* Make the button visually clickable */
+  border-radius: 0.25rem; /* Slightly rounded corners */
+  text-align: center;
+  display: inline-block; /* Ensure inline alignment like <a> */
+  line-height: 1.5;
+  transition: color 0.2s ease, border-color 0.2s ease; /* Smooth hover effect */
+}
+
+@media (prefers-color-scheme: dark) {
+.publications ol.bibliography li .links button.bibtex-btn {
+  color: #FFFFFF; /* Match button text color in dark mode */
+  border: 1px solid #FFFFFF; /* Match border color in dark mode */
+}
+}
+
+/* Hover effect for the BibTeX button */
+.publications ol.bibliography li .links button.bibtex-btn:hover {
+  color: var(--global-theme-color); /* Match hover text color */
+  border-color: var(--global-theme-color); /* Match hover border color */
+  background-color: rgba(0, 0, 0, 0.05); /* Light background on hover */
+}
