@@ -16,16 +16,21 @@
     <div class="links">
       <a href="https://arxiv.org/abs/2403.17937" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://github.com/Amshaker/MAVOS" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
-      <!-- <a href="#bibtex-citation-mavos" class="btn btn-sm z-depth-0 bibtex-btn" role="button" target="_blank" style="font-size:12px;">BIBTEX</a> -->
+      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-mavos')" style="font-size:12px;">BIBTEX</button>
     </div>
-    <div id="bibtex-citation-mavos" class="bibtex-citation" style="display: none;">
-      @inproceedings{shaker2025mavos,
-        title={Efficient Video Object Segmentation via Modulated Cross-Attention Memory},
-        author={Abdelrahman Shaker and Syed Talal Wasim and Martin Danelljan and Salman Khan and Ming-Hsuan Yang and Fahad Shahbaz Khan},
-        booktitle={WACV}
-        year={2025}
-      }
-  </div>
+    <div id="bibtex-mavos" class="bibtex-popup">
+      <div class="bibtex-content">
+        <span class="close" onclick="closeBibtex('bibtex-mavos')">&times;</span>
+        <pre>
+          @inproceedings{shaker2025mavos,
+            title={Efficient Video Object Segmentation via Modulated Cross-Attention Memory},
+            author={Abdelrahman Shaker and Syed Talal Wasim and Martin Danelljan and Salman Khan and Ming-Hsuan Yang and Fahad Shahbaz Khan},
+            booktitle={WACV}
+            year={2025}
+          }
+        </pre>
+      </div>
+    </div>
   </div>
 </div>
 </li>

@@ -1,12 +1,22 @@
-// Get all the BibTeX buttons
-const bibtexButtons = document.querySelectorAll('.bibtex-btn');
+function showBibtex(popupId) {
+  const popup = document.getElementById(popupId);
+  if (popup) {
+    popup.style.display = "block";
+  }
+}
 
-// Add click event handlers
-bibtexButtons.forEach((button) => {
-  button.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevent default link behavior
-    const bibtexDivId = event.target.getAttribute('href').slice(1); // Get the ID from the href
-    const bibtexDiv = document.getElementById(bibtexDivId);
-    bibtexDiv.style.display = bibtexDiv.style.display === 'none' ? 'block' : 'none';
-  });
-});
+function closeBibtex(popupId) {
+  const popup = document.getElementById(popupId);
+  if (popup) {
+    popup.style.display = "none";
+  }
+}
+
+window.onclick = function(event) {
+  const popups = document.getElementsByClassName("bibtex-popup");
+  for (let i = 0; i < popups.length; i++) {
+    if (event.target === popups[i]) {
+      popups[i].style.display = "none";
+    }
+  }
+};
