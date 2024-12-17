@@ -22,12 +22,12 @@
       <div class="bibtex-content">
         <span class="close" onclick="closeBibtex('bibtex-mavos')">&times;</span>
         <pre>
-          @inproceedings{shaker2025mavos,
-            title={Efficient Video Object Segmentation via Modulated Cross-Attention Memory},
-            author={Abdelrahman Shaker and Syed Talal Wasim and Martin Danelljan and Salman Khan and Ming-Hsuan Yang and Fahad Shahbaz Khan},
-            booktitle={WACV}
-            year={2025}
-          }
+@inproceedings{shaker2025mavos,
+  title={Efficient Video Object Segmentation via Modulated Cross-Attention Memory},
+  author={Abdelrahman Shaker and Syed Talal Wasim and Martin Danelljan and Salman Khan and Ming-Hsuan Yang and Fahad Shahbaz Khan},
+  booktitle={WACV}
+  year={2025}
+}
         </pre>
       </div>
     </div>
