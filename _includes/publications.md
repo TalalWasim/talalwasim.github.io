@@ -282,7 +282,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Sim-to-Real Transfer for Object Detection and Localization on Animals</div>
     <div class="author"><strong>Syed Talal Wasim</strong>, Syed Nouman Hasany, Kainat Abbasi, Huda Feroz, Anisa Aisha Ahmed, Mudasir Hanif Shaikh and Muhammad Farhan</div>
-    <div class="periodical"><em>CVPR 2021, CV4Animals Workshop</em></div>
+    <div class="periodical"><em>CV4Animals Workshop, CVPR 2021</em></div>
     <div class="links">
       <a href="assets/paper_pdfs/cv4animals.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">POSTER</a>
     </div>
