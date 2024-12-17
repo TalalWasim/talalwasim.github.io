@@ -121,7 +121,7 @@
       <div class="bibtex-content">
         <span class="close" onclick="closeBibtex('bibtex-groupmamba')">&times;</span>
         <pre>
-@article{groupmamba,
+@article{shaker2024groupmamba,
   title={GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model},
   author={Abdelrahman Shaker and Syed Talal Wasim and Salman Khan and Juergen Gall and Fahad Shahbaz Khan},
   journal={arxiv preprint, arxiv:2407.13772},
@@ -154,7 +154,7 @@
       <div class="bibtex-content">
         <span class="close" onclick="closeBibtex('bibtex-stablemamba')">&times;</span>
         <pre>
-@article{stablemamba,
+@article{suleman2024stablemamba,
   title={Distillation-free Scaling of Large SSMs for Images and Videos},
   author={Hamid Suleman* and Syed Talal Wasim* and Muzammal Naseer and Juergen Gall},
   journal={arxiv preprint, arxiv:2409.11867},
