@@ -45,7 +45,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models</div>
     <div class="author">Jinhui Yi*, <strong>Syed Talal Wasim</strong>*, Yanan Luo*, Muzammal Naseer and Juergen Gall</div>
-    <div class="periodical"><em>Under Review</em></div>
+    <div class="periodical"><em>Under Review (Preprint will be released soon)</em></div>
     <div class="links">
       <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
@@ -78,7 +78,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection</div>
     <div class="author">Divya Velayudhan, Abdelfatah Ahmed, Mohamad Alansari, Neha Gour, Abderaouf Behouch, Taimur Hassan, <strong>Syed Talal Wasim</strong>, Nabil Maalej, Muzammal Naseer, Juergen Gall, Mohammed Bennamoun, Ernesto Damiani and Naoufel Werghi</div>
-    <div class="periodical"><em>Under Review</em></div>
+    <div class="periodical"><em>Under Review (Preprint will be released soon)</em></div>
     <div class="links">
       <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
