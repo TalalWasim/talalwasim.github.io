@@ -375,7 +375,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Toward Automatic Typography Analysis: Serif Classification and Font Similarities</div>
     <div class="author"><strong>Syed Talal Wasim</strong>, Romain Collaud, Lara Défayes, Nicolas Henchoz, Mathieu Salzmann and Delphine Ribes</div>
-    <div class="periodical"><em>Journal of Data Mining in Digital Humanities (JDMDH), 2023</em></div>
+    <div class="periodical"><em>Journal of Data Mining in Digital Humanities, 2023</em></div>
     <div class="links">
       <a href="https://jdmdh.episciences.org/paper/view/id/13008" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://github.com/TalalWasim/GEST-Serif" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
