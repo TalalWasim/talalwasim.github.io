@@ -127,34 +127,36 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 150px; width: 350px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
 
-/* Style the BibTeX button to match the "PAPER" and "CODE" links */
+/* Style the BibTeX button to match the "PAPER" and "CODE" buttons */
 .publications ol.bibliography li .links button.bibtex-btn {
   background: none; /* Remove default background */
-  color: #000000; /* Match text color of buttons */
-  border: 1px solid #000000; /* Add solid border like other buttons */
+  color: #000000; /* Match text color */
+  border: 1px solid #000000; /* Solid border like other buttons */
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: 12px; /* Match button font size */
-  cursor: pointer; /* Make the button visually clickable */
-  border-radius: 0.25rem; /* Slightly rounded corners */
+  font-size: 12px; /* Ensure consistent font size */
+  font-family: inherit; /* Match font style */
+  line-height: 1.2; /* Match line height for button text */
+  text-transform: none; /* Ensure no text transformation */
+  cursor: pointer; /* Show pointer on hover */
   text-align: center;
-  display: inline-block; /* Ensure inline alignment like <a> */
-  line-height: 1.5;
+  display: inline-block; /* Inline alignment */
+  border-radius: 0; /* Remove rounded corners for sharp edges */
   transition: color 0.2s ease, border-color 0.2s ease; /* Smooth hover effect */
 }
 
 @media (prefers-color-scheme: dark) {
 .publications ol.bibliography li .links button.bibtex-btn {
-  color: #FFFFFF; /* Match button text color in dark mode */
-  border: 1px solid #FFFFFF; /* Match border color in dark mode */
+  color: #FFFFFF; /* Text color in dark mode */
+  border: 1px solid #FFFFFF; /* Border color in dark mode */
 }
 }
 
 /* Hover effect for the BibTeX button */
 .publications ol.bibliography li .links button.bibtex-btn:hover {
-  color: var(--global-theme-color); /* Match hover text color */
-  border-color: var(--global-theme-color); /* Match hover border color */
-  background-color: rgba(0, 0, 0, 0.05); /* Light background on hover */
+  color: var(--global-theme-color); /* Hover text color */
+  border-color: var(--global-theme-color); /* Hover border color */
+  background-color: transparent; /* No background change */
 }
