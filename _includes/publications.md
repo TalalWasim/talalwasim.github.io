@@ -45,10 +45,10 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models</div>
     <div class="author">Jinhui Yi*, <strong>Syed Talal Wasim</strong>*, Yanan Luo*, Muzammal Naseer and Juergen Gall</div>
-    <div class="periodical"><em>Under Review (Preprint will be released soon)</em></div>
+    <div class="periodical"><em>Under Review</em></div>
     <div class="links">
-      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <a href="https://arxiv.org/abs/2412.18609" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://github.com/jh-yi/Video-Panda" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
       <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-vpanda')" style="font-size:12px;">BIBTEX</button>
     </div>
     <div id="bibtex-vpanda" class="bibtex-popup">
