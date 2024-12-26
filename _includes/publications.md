@@ -90,7 +90,7 @@
         <pre>
 @inproceedings{velayudhan2024sting,
   title={STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection},
-  author={Divya Velayudhan and Abdelfatah Ahmed and Mohamad Alansari and Neha Gour and Abderaouf Behouch and Taimur Hassan and Syed Talal Wasim and Nabil Maalej and Muzammal Naseer and Juergen Gall and Mohammed Bennamoun and Ernesto Damiani and Naoufel Werghi},
+  author={D. Velayudhan and A. Ahmed and M. Alansari and N. Gour and A. Behouch and T. Hassan and Syed Talal Wasim and N. Maalej and M. Naseer and J. Gall and M. Bennamoun and E. Damiani and N. Werghi},
   booktitle={Under Review}
   year={2024}}
         </pre>
@@ -437,7 +437,7 @@
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Sim-to-Real Transfer for Object Detection and Localization on Animals</div>
-    <div class="author"><strong>Syed Talal Wasim</strong>, Syed Nouman Hasany, Kainat Abbasi, Huda Feroz, Anisa Aisha Ahmed, Mudasir Hanif Shaikh and Muhammad Farhan</div>
+    <div class="author"><strong>Syed Talal Wasim</strong>, Syed N. Hasany, Kainat Abbasi, Huda Feroz, Anisa A. Ahmed, Mudasir H. Shaikh and Muhammad Farhan</div>
     <div class="periodical"><em>CV4Animals Workshop, CVPR 2021</em></div>
     <div class="links">
       <a href="assets/paper_pdfs/cv4animals.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">POSTER</a>
