@@ -77,7 +77,7 @@
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection</div>
-    <div class="author">Divya Velayudhan, Abdelfatah Ahmed, Mohamad Alansari, Neha Gour, Abderaouf Behouch, Taimur Hassan, <strong>Syed Talal Wasim</strong>, Nabil Maalej, Muzammal Naseer, Juergen Gall, Mohammed Bennamoun, Ernesto Damiani and Naoufel Werghi</div>
+    <div class="author">D. Velayudhan, A. Ahmed, M. Alansari, N. Gour, A. Behouch, T. Hassan, <strong>Syed Talal Wasim</strong>, N. Maalej, M. Naseer, J. Gall, M. Bennamoun, E. Damiani and N. Werghi</div>
     <div class="periodical"><em>Under Review (Preprint will be released soon)</em></div>
     <div class="links">
       <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
@@ -90,7 +90,7 @@
         <pre>
 @inproceedings{velayudhan2024sting,
   title={STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection},
-  author={D. Velayudhan and A. Ahmed and M. Alansari and N. Gour and A. Behouch and T. Hassan and Syed Talal Wasim and N. Maalej and M. Naseer and J. Gall and M. Bennamoun and E. Damiani and N. Werghi},
+  author={Divya Velayudhan and Abdelfatah Ahmed and Mohamad Alansari and Neha Gour and Abderaouf Behouch and Taimur Hassan and Syed Talal Wasim and Nabil Maalej and Muzammal Naseer and Juergen Gall and Mohammed Bennamoun and Ernesto Damiani and Naoufel Werghi},
   booktitle={Under Review}
   year={2024}}
         </pre>
