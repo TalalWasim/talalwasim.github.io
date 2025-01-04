@@ -55,10 +55,10 @@
       <div class="bibtex-content">
         <span class="close" onclick="closeBibtex('bibtex-vpanda')">&times;</span>
         <pre>
-@inproceedings{yi2024vpanda,
+@article{yi2024vpanda,
   title={Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models},
   author={Jinhui Yi* and Syed Talal Wasim* and Yanan Luo* and Muzammal Naseer and Juergen Gall},
-  booktitle={Under Review}
+  journal={arxiv preprint, arxiv:2412.18609}
   year={2024}}
         </pre>
       </div>
