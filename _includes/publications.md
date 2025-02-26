@@ -6,6 +6,105 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/paper_imgs/vpanda.jpg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CVPR</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models</div>
+    <div class="author">Jinhui Yi*, <strong>Syed Talal Wasim</strong>*, Yanan Luo*, Muzammal Naseer and Juergen Gall</div>
+    <div class="periodical"><em>CVPR</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2412.18609" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://github.com/jh-yi/Video-Panda" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-vpanda')" style="font-size:12px;">BIBTEX</button>
+    </div>
+    <div id="bibtex-vpanda" class="bibtex-popup">
+      <div class="bibtex-content">
+        <span class="close" onclick="closeBibtex('bibtex-vpanda')">&times;</span>
+        <pre>
+@inproceedings{yi2024vpanda,
+  title={Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models},
+  author={Jinhui Yi* and Syed Talal Wasim* and Yanan Luo* and Muzammal Naseer and Juergen Gall},
+  booktitle={CVPR}
+  year={2025}}
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/paper_imgs/groupmamba.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CVPR</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title">GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model</div>
+    <div class="author">Abdelrahman Shaker, <strong>Syed Talal Wasim</strong>, Salman Khan, and Fahad Shahbaz Khan</div>
+    <div class="periodical"><em>CVPR</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2407.13772" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://github.com/Amshaker/GroupMamba" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-groupmamba')" style="font-size:12px;">BIBTEX</button>
+    </div>
+    <div id="bibtex-groupmamba" class="bibtex-popup">
+      <div class="bibtex-content">
+        <span class="close" onclick="closeBibtex('bibtex-groupmamba')">&times;</span>
+        <pre>
+@inproceedings{shaker2024groupmamba,
+  title={GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model},
+  author={Abdelrahman Shaker and Syed Talal Wasim and Salman Khan and Juergen Gall and Fahad Shahbaz Khan},
+  booktitle={CVPR},
+  year={2025}}
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/paper_imgs/sting.jpg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CVPR</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title">STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection</div>
+    <div class="author">D. Velayudhan, A. Ahmed, M. Alansari, N. Gour, A. Behouch, T. Hassan, <strong>Syed Talal Wasim</strong>, N. Maalej, M. Naseer, J. Gall, M. Bennamoun, E. Damiani and N. Werghi</div>
+    <div class="periodical"><em>CVPR (Preprint will be released soon)</em></div>
+    <div class="links">
+      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-sting')" style="font-size:12px;">BIBTEX</button>
+    </div>
+    <div id="bibtex-sting" class="bibtex-popup">
+      <div class="bibtex-content">
+        <span class="close" onclick="closeBibtex('bibtex-sting')">&times;</span>
+        <pre>
+@inproceedings{velayudhan2024sting,
+  title={STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection},
+  author={Divya Velayudhan and Abdelfatah Ahmed and Mohamad Alansari and Neha Gour and Abderaouf Behouch and Taimur Hassan and Syed Talal Wasim and Nabil Maalej and Muzammal Naseer and Juergen Gall and Mohammed Bennamoun and Ernesto Damiani and Naoufel Werghi},
+  booktitle={CVPR}
+  year={2025}}
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/mavos.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">WACV</abbr>
   </div>
@@ -27,105 +126,6 @@
   author={Abdelrahman Shaker and Syed Talal Wasim and Martin Danelljan and Salman Khan and Ming-Hsuan Yang and Fahad Shahbaz Khan},
   booktitle={WACV}
   year={2025}}
-        </pre>
-      </div>
-    </div>
-  </div>
-</div>
-</li>
-
-<br>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/vpanda.jpg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models</div>
-    <div class="author">Jinhui Yi*, <strong>Syed Talal Wasim</strong>*, Yanan Luo*, Muzammal Naseer and Juergen Gall</div>
-    <div class="periodical"><em>Under Review</em></div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2412.18609" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://github.com/jh-yi/Video-Panda" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
-      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-vpanda')" style="font-size:12px;">BIBTEX</button>
-    </div>
-    <div id="bibtex-vpanda" class="bibtex-popup">
-      <div class="bibtex-content">
-        <span class="close" onclick="closeBibtex('bibtex-vpanda')">&times;</span>
-        <pre>
-@article{yi2024vpanda,
-  title={Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models},
-  author={Jinhui Yi* and Syed Talal Wasim* and Yanan Luo* and Muzammal Naseer and Juergen Gall},
-  journal={arxiv preprint, arxiv:2412.18609}
-  year={2024}}
-        </pre>
-      </div>
-    </div>
-  </div>
-</div>
-</li>
-
-<br>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/sting.jpg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title">STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection</div>
-    <div class="author">D. Velayudhan, A. Ahmed, M. Alansari, N. Gour, A. Behouch, T. Hassan, <strong>Syed Talal Wasim</strong>, N. Maalej, M. Naseer, J. Gall, M. Bennamoun, E. Damiani and N. Werghi</div>
-    <div class="periodical"><em>Under Review (Preprint will be released soon)</em></div>
-    <div class="links">
-      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
-      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-sting')" style="font-size:12px;">BIBTEX</button>
-    </div>
-    <div id="bibtex-sting" class="bibtex-popup">
-      <div class="bibtex-content">
-        <span class="close" onclick="closeBibtex('bibtex-sting')">&times;</span>
-        <pre>
-@inproceedings{velayudhan2024sting,
-  title={STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection},
-  author={Divya Velayudhan and Abdelfatah Ahmed and Mohamad Alansari and Neha Gour and Abderaouf Behouch and Taimur Hassan and Syed Talal Wasim and Nabil Maalej and Muzammal Naseer and Juergen Gall and Mohammed Bennamoun and Ernesto Damiani and Naoufel Werghi},
-  booktitle={Under Review}
-  year={2024}}
-        </pre>
-      </div>
-    </div>
-  </div>
-</div>
-</li>
-
-<br>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/groupmamba.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title">GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model</div>
-    <div class="author">Abdelrahman Shaker, <strong>Syed Talal Wasim</strong>, Salman Khan, and Fahad Shahbaz Khan</div>
-    <div class="periodical"><em>Under Review</em></div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2407.13772" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://github.com/Amshaker/GroupMamba" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
-      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-groupmamba')" style="font-size:12px;">BIBTEX</button>
-    </div>
-    <div id="bibtex-groupmamba" class="bibtex-popup">
-      <div class="bibtex-content">
-        <span class="close" onclick="closeBibtex('bibtex-groupmamba')">&times;</span>
-        <pre>
-@article{shaker2024groupmamba,
-  title={GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model},
-  author={Abdelrahman Shaker and Syed Talal Wasim and Salman Khan and Juergen Gall and Fahad Shahbaz Khan},
-  journal={arxiv preprint, arxiv:2407.13772},
-  year={2024}}
         </pre>
       </div>
     </div>
