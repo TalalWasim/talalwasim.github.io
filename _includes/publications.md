@@ -12,7 +12,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models</div>
     <div class="author">Jinhui Yi*, <strong>Syed Talal Wasim</strong>*, Yanan Luo*, Muzammal Naseer and Juergen Gall</div>
-    <div class="periodical"><em>CVPR</em></div>
+    <div class="periodical"><em>CVPR, 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2412.18609" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://github.com/jh-yi/Video-Panda" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
@@ -45,7 +45,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model</div>
     <div class="author">Abdelrahman Shaker, <strong>Syed Talal Wasim</strong>, Salman Khan, and Fahad Shahbaz Khan</div>
-    <div class="periodical"><em>CVPR</em></div>
+    <div class="periodical"><em>CVPR, 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2407.13772" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://github.com/Amshaker/GroupMamba" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
@@ -78,7 +78,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection</div>
     <div class="author">D. Velayudhan, A. Ahmed, M. Alansari, N. Gour, A. Behouch, T. Hassan, <strong>Syed Talal Wasim</strong>, N. Maalej, M. Naseer, J. Gall, M. Bennamoun, E. Damiani and N. Werghi</div>
-    <div class="periodical"><em>CVPR (Preprint will be released soon)</em></div>
+    <div class="periodical"><em>CVPR, 2025 (Preprint will be released soon)</em></div>
     <div class="links">
       <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
