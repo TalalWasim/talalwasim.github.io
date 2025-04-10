@@ -78,10 +78,10 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection</div>
     <div class="author">D. Velayudhan, A. Ahmed, M. Alansari, N. Gour, A. Behouch, T. Hassan, <strong>Syed Talal Wasim</strong>, N. Maalej, M. Naseer, J. Gall, M. Bennamoun, E. Damiani and N. Werghi</div>
-    <div class="periodical"><em>CVPR, 2025 (Preprint will be released soon)</em></div>
+    <div class="periodical"><em>CVPR, 2025</em></div>
     <div class="links">
-      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <a href="https://arxiv.org/abs/2504.02823" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://divs1159.github.io/STING-BEE/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
       <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-sting')" style="font-size:12px;">BIBTEX</button>
     </div>
     <div id="bibtex-sting" class="bibtex-popup">
