@@ -7,6 +7,8 @@
   <li><autocolor>Transactions on Neural Networks and Learning Systems (TNNLS)</autocolor></li>
   <li><autocolor>Transactions on Image Processing (TIP)</autocolor></li>
   <li><autocolor>Transactions on Machine Learning Research (TMLR)</autocolor></li>
+  <li><autocolor>International Journal of Computer Vision (IJCV)</autocolor></li>
+  <li><autocolor>Pattern Recognition</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
