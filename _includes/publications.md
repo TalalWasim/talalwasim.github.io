@@ -6,6 +6,39 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/paper_imgs/mixant.jpeg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICCV</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title">MixANT: Observation-dependent Memory Propagation for Stochastic Dense Action Anticipation</div>
+    <div class="author"><strong>Syed Talal Wasim</strong>, Hamid Suleman, Olga Zatsarynna, Muzammal Naseer and Juergen Gall</div>
+    <div class="periodical"><em>ICCV, 2025</em></div>
+    <div class="links">
+      <a href="https://talalwasim.github.io/MixANT/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://talalwasim.github.io/MixANT/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-mixant')" style="font-size:12px;">BIBTEX</button>
+    </div>
+    <div id="bibtex-mixant" class="bibtex-popup">
+      <div class="bibtex-content">
+        <span class="close" onclick="closeBibtex('bibtex-mixant')">&times;</span>
+        <pre>
+@inproceedings{wasim2025mixant,
+  title={MixANT: Observation-dependent Memory Propagation for Stochastic Dense Action Anticipation},
+  author={Syed Talal Wasim and Hamid Suleman and Olga Zatsarynna and Muzammal Naseer and Juergen Gall},
+  booktitle={ICCV}
+  year={2025}}
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/vpanda.jpg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">CVPR</abbr>
   </div>
@@ -22,7 +55,7 @@
       <div class="bibtex-content">
         <span class="close" onclick="closeBibtex('bibtex-vpanda')">&times;</span>
         <pre>
-@inproceedings{yi2024vpanda,
+@inproceedings{yi2025vpanda,
   title={Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models},
   author={Jinhui Yi* and Syed Talal Wasim* and Yanan Luo* and Muzammal Naseer and Juergen Gall},
   booktitle={CVPR}
