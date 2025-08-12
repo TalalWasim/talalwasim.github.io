@@ -22,6 +22,7 @@ My previous website listing high-school, undrgraduate and graduate courses and p
 ## News
 <div id="news-container">
 <ul>
+    <li><strong>[Jul. 2025]</strong> Our paper titled "MixANT: Observation-dependent Memory Propagation for Stochastic Dense Action Anticipation" is accepted in ICCV 2025.</li>
     <li><strong>[Feb. 2025]</strong> Three of our papers (Video-Panda, GroupMamba, and STING-BEE) have been accepted in CVPR 2025.</li>
     <li><strong>[Dec. 2024]</strong> Our paper titled "Efficient Video Object Segmentation via Modulated Cross-Attention Memory" is accepted in WACV 2025.</li>
     <li><strong>[Oct. 2024]</strong> New preprint released titled "Distillation-free Scaling of Large SSMs for Images and Videos".</li>
