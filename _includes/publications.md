@@ -14,7 +14,7 @@
     <div class="author"><strong>Syed Talal Wasim</strong>, Hamid Suleman, Olga Zatsarynna, Muzammal Naseer and Juergen Gall</div>
     <div class="periodical"><em>ICCV, 2025</em></div>
     <div class="links">
-      <a href="https://talalwasim.github.io/MixANT/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://arxiv.org/abs/2509.11394" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://talalwasim.github.io/MixANT/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
       <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-mixant')" style="font-size:12px;">BIBTEX</button>
     </div>
