@@ -6,6 +6,72 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/paper_imgs/mhcad.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ECCV</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Open-Vocabulary Long-term Action Anticipation</div>
+    <div class="author"><strong>Syed Talal Wasim</strong>, Jinhui Yi, Hamid Suleman, Ahmad Javed, Yanan Luo, Muzammal Naseer and Juergen Gall</div>
+    <div class="periodical"><em>ECCV, 2026</em></div>
+    <div class="links">
+      <a href="https://eccv.ecva.net/virtual/2026/poster/4830" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://jh-yi.github.io/OpenVocab-Ant/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PROJECT PAGE</a>
+      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-mhcad')" style="font-size:12px;">BIBTEX</button>
+    </div>
+    <div id="bibtex-mhcad" class="bibtex-popup">
+      <div class="bibtex-content">
+        <span class="close" onclick="closeBibtex('bibtex-mhcad')">&times;</span>
+        <pre>
+@inproceedings{wasim2026openVocabAnt,
+  title={Open-Vocabulary Long-term Action Anticipation},
+  author={Syed Talal Wasim and Jinhui Yi and Hamid Suleman and Ahmad Javed and Yanan Luo and Muzammal Naseer and Juergen Gall},
+  booktitle={ECCV}
+  year={2026}}
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/paper_imgs/redsage.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICLR</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title">RedSage: A Cybersecurity Generalist LLM</div>
+    <div class="author">Naufal Suryanto, Muzammal Naseer, Pengfei Li, <strong>Syed Talal Wasim</strong>, Jinhui Yi, Juergen Gall, Paolo Ceravolo, Ernesto Damiani</div>
+    <div class="periodical"><em>ICLR, 2026</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2601.22159" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://risys-lab.github.io/RedSage/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PROJECT PAGE</a>
+      <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-redsage')" style="font-size:12px;">BIBTEX</button>
+    </div>
+    <div id="bibtex-redsage" class="bibtex-popup">
+      <div class="bibtex-content">
+        <span class="close" onclick="closeBibtex('bibtex-redsage')">&times;</span>
+        <pre>
+@inproceedings{suryanto2026redsage,
+  title={RedSage: A Cybersecurity Generalist LLM},
+  author={Naufal Suryanto and Muzammal Naseer and Pengfei Li and Syed Talal Wasim and Jinhui Yi and Juergen Gall and Paolo Ceravolo and Ernesto Damiani},
+  booktitle={ICLR}
+  year={2026}}
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/mixant.jpeg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ICCV</abbr>
   </div>
@@ -15,7 +81,7 @@
     <div class="periodical"><em>ICCV, 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2509.11394" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://talalwasim.github.io/MixANT/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <a href="https://talalwasim.github.io/MixANT/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PROJECT PAGE</a>
       <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-mixant')" style="font-size:12px;">BIBTEX</button>
     </div>
     <div id="bibtex-mixant" class="bibtex-popup">
@@ -48,7 +114,7 @@
     <div class="periodical"><em>CVPR, 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2412.18609" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://github.com/jh-yi/Video-Panda" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <a href="https://jh-yi.github.io/Video-Panda/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PROJECT PAGE</a>
       <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-vpanda')" style="font-size:12px;">BIBTEX</button>
     </div>
     <div id="bibtex-vpanda" class="bibtex-popup">
@@ -114,7 +180,7 @@
     <div class="periodical"><em>CVPR, 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2504.02823" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://divs1159.github.io/STING-BEE/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
+      <a href="https://divs1159.github.io/STING-BEE/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PROJECT PAGE</a>
       <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-sting')" style="font-size:12px;">BIBTEX</button>
     </div>
     <div id="bibtex-sting" class="bibtex-popup">
@@ -172,12 +238,12 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/paper_imgs/stablemamba.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">IJCV</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Distillation-free Scaling of Large SSMs for Images and Videos</div>
+    <div class="title">Distillation-free Scaling of Large State-Space Models for Images and Videos</div>
     <div class="author">Hamid Suleman*, <strong>Syed Talal Wasim</strong>*, Muzammal Naseer and Juergen Gall</div>
-    <div class="periodical"><em>Under Review</em></div>
+    <div class="periodical"><em>IJCV</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2409.11867" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
       <a href="https://talalwasim.github.io" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
@@ -187,11 +253,11 @@
       <div class="bibtex-content">
         <span class="close" onclick="closeBibtex('bibtex-stablemamba')">&times;</span>
         <pre>
-@article{suleman2024stablemamba,
-  title={Distillation-free Scaling of Large SSMs for Images and Videos},
+@article{suleman2026stablemamba,
+  title={Distillation-free Scaling of Large State-Space Models for Images and Videos},
   author={Hamid Suleman* and Syed Talal Wasim* and Muzammal Naseer and Juergen Gall},
-  journal={arxiv preprint, arxiv:2409.11867},
-  year={2024}}
+  journal={IJCV},
+  year={2026}}
         </pre>
       </div>
     </div>

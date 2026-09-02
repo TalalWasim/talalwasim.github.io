@@ -22,6 +22,8 @@ My previous website listing high-school, undrgraduate and graduate courses and p
 ## News
 <div id="news-container">
 <ul>
+    <li><strong>[Jul. 2026]</strong> Our paper titled "Open-Vocabulary Long-term Action Anticipation" is accepted in ECCV 2026.</li>
+    <li><strong>[Mar. 2026]</strong> Our paper titled "RedSage: A Cybersecurity Generalist LLM" is accepted in ICLR 2026.</li>
     <li><strong>[Jul. 2025]</strong> Our paper titled "MixANT: Observation-dependent Memory Propagation for Stochastic Dense Action Anticipation" is accepted in ICCV 2025.</li>
     <li><strong>[Feb. 2025]</strong> Three of our papers (Video-Panda, GroupMamba, and STING-BEE) have been accepted in CVPR 2025.</li>
     <li><strong>[Dec. 2024]</strong> Our paper titled "Efficient Video Object Segmentation via Modulated Cross-Attention Memory" is accepted in WACV 2025.</li>
