@@ -180,7 +180,7 @@
     <div class="periodical"><em>CVPR, 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2504.02823" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://divs1159.github.io/STING-BEE/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PROJECT PAGE</a>
+      <a href="https://github.com/Divs1159/STING-BEE" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">CODE</a>
       <button class="btn btn-sm z-depth-0 bibtex-btn" onclick="showBibtex('bibtex-sting')" style="font-size:12px;">BIBTEX</button>
     </div>
     <div id="bibtex-sting" class="bibtex-popup">
