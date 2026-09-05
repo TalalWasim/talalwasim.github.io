@@ -1,0 +1,102 @@
+// Buttons, icon buttons, BibTeX dialog.
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+  &:hover { background: var(--accent-strong); border-color: var(--accent-strong); color: var(--accent-ink); }
+}
+
+.btn-ghost {
+  border-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+  color: var(--accent);
+  &:hover { background: transparent; border-color: transparent; text-decoration: underline; }
+}
+
+.btn-icon { display: inline-flex; .icon { width: 14px; height: 14px; } }
+.btn-icon--check { display: none; }
+.btn.is-done {
+  .btn-icon--copy { display: none; }
+  .btn-icon--check { display: inline-flex; }
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink-2);
+  cursor: pointer;
+  .icon { width: 18px; height: 18px; }
+  &:hover { background: var(--bg-elev); color: var(--ink); }
+}
+
+// BibTeX dialog (native <dialog>)
+.bibtex-dialog {
+  width: calc(100% - 32px);
+  max-width: 640px;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  background: var(--bg);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  &::backdrop { background: rgba(10, 12, 14, 0.5); }
+}
+.bibtex-dialog-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 14px 10px 20px;
+  h2 { font-family: $font-serif; font-size: 22px; font-weight: 500; }
+}
+.bibtex-dialog-text {
+  margin: 0 20px;
+  padding: 14px 16px;
+  max-height: 60vh;
+  overflow: auto;
+  border-radius: 8px;
+  background: var(--bg-elev);
+  font-family: $font-mono;
+  font-size: 13px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.bibtex-dialog-actions {
+  display: flex;
+  gap: 8px;
+  padding: 14px 20px 18px;
+}
+
+// Cursor + transition hygiene
+@media (prefers-reduced-motion: no-preference) {
+  .btn, .theme-toggle, .links a, a { transition: color 0.12s ease, border-color 0.12s ease, background-color 0.12s ease; }
+}

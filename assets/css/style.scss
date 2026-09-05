@@ -1,4 +1,14 @@
 ---
 ---
+// Entry point compiled by Jekyll. Partials live in /_sass.
+// GitHub Pages compiles with (old) Ruby Sass: keep to @import, no @use / math.div / min() / max().
 
-@import "minimal-light";
+@import "tokens";
+@import "fonts";
+@import "base";
+@import "layout";
+@import "sidebar";
+@import "content";
+@import "publications";
+@import "components";
+@import "print";

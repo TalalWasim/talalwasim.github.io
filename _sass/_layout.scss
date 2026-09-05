@@ -1,0 +1,40 @@
+// Two columns on desktop: a sticky identity rail and the scrolling content.
+// One column below $bp-tablet.
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 56px 40px 40px;
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  column-gap: 72px;
+  align-items: start;
+}
+
+.main {
+  max-width: 720px;
+  min-width: 0;
+}
+
+.footer {
+  margin-top: 64px;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-3);
+  font-size: 13px;
+  p { margin: 0; }
+  a { color: inherit; }
+}
+
+@media (max-width: $bp-tablet) {
+  .page {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 36px;
+    padding: 28px 24px 32px;
+  }
+  .main { max-width: none; }
+}
+
+@media (max-width: $bp-phone) {
+  .page { padding: 20px 18px 28px; }
+}

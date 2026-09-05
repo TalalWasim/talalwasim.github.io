@@ -1,0 +1,122 @@
+// Publications list. Figures keep their aspect ratio inside a fixed-width
+// column; category rows are dividers with a label.
+
+.pubs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-category {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 36px;
+  padding-bottom: 10px;
+  &:first-child { margin-top: 0; }
+  h3 {
+    font-family: $font-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  &::after {
+    content: "";
+    flex: 1 1 auto;
+    height: 1px;
+    background: var(--rule);
+  }
+}
+
+.pub {
+  display: grid;
+  grid-template-columns: var(--pub-figure-width) minmax(0, 1fr);
+  column-gap: 24px;
+  align-items: start;
+  padding: 18px 0;
+  border-top: 1px solid var(--rule);
+  .pub-category + & { border-top: 0; }
+  &--no-image { grid-template-columns: minmax(0, 1fr); }
+}
+
+.pub-figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  img {
+    max-width: 100%;
+    max-height: var(--pub-figure-max-height);
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid var(--rule);
+    background: var(--figure-bg);
+    @include dark { opacity: 0.92; }
+  }
+}
+
+// Venue tag shown as the figure caption (never covers the figure).
+.pub-badge {
+  padding: 2px 10px;
+  border-radius: 4px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.pub-title {
+  font-family: $font-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.pub-authors {
+  margin: 0 0 2px;
+  font-size: 15px;
+  color: var(--ink-2);
+  .me { color: var(--ink); font-weight: 600; }
+}
+
+.pub-venue {
+  margin: 0;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+
+.pub-award {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 7px;
+  border-radius: 4px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+  vertical-align: 1px;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+@media (max-width: $bp-phone) {
+  .pub {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 12px;
+    padding: 16px 0;
+  }
+  .pub-figure img { max-height: 180px; }
+  .pub-category { margin-top: 28px; }
+  .pub-title { font-size: 19px; }
+}

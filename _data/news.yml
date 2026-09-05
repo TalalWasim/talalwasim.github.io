@@ -1,0 +1,99 @@
+# ---------------------------------------------------------------------------
+# News. Newest first. Markdown links are allowed in `text`.
+# Write the text on the line after `text: >-` (indented) - then quotes and colons
+# inside it never need escaping.
+# The first `news_visible` items (see _config.yml) are shown; the rest sit
+# behind a "Show all" button.
+# ---------------------------------------------------------------------------
+
+- date: Jul 2026
+  text: >-
+    Our paper "Open-Vocabulary Long-term Action Anticipation" is accepted in ECCV 2026.
+
+- date: Mar 2026
+  text: >-
+    Our paper "RedSage: A Cybersecurity Generalist LLM" is accepted in ICLR 2026.
+
+- date: Jul 2025
+  text: >-
+    Our paper "MixANT: Observation-dependent Memory Propagation for Stochastic Dense Action Anticipation" is accepted in ICCV 2025.
+
+- date: Feb 2025
+  text: >-
+    Three of our papers (Video-Panda, GroupMamba, and STING-BEE) have been accepted in CVPR 2025.
+
+- date: Dec 2024
+  text: >-
+    Our paper "Efficient Video Object Segmentation via Modulated Cross-Attention Memory" is accepted in WACV 2025.
+
+- date: Oct 2024
+  text: >-
+    New preprint released titled "Distillation-free Scaling of Large SSMs for Images and Videos".
+
+- date: Mar 2024
+  text: >-
+    Our paper "VideoGrounding-DINO: Towards Open-Vocabulary Spatio-Temporal Video Grounding" is accepted in CVPR 2024.
+
+- date: Feb 2024
+  text: >-
+    My student Muhammad Zain Yousuf's bachelor thesis titled "AR-VPT: Simple Auto-Regressive Prompts for Adapting Frozen ViTs to Videos" is accepted in VISAPP 2024.
+
+- date: Jan 2024
+  text: >-
+    I started a PhD at the University of Bonn, Germany working on Long-Term Multimodal Video Understanding, under the supervision of Professor Dr. Juergen Gall.
+
+- date: Oct 2023
+  text: >-
+    Our paper "Hardware Resilience Properties of Text-Guided Image Classifiers" is accepted in NeurIPS 2023.
+
+- date: Aug 2023
+  text: >-
+    Our paper "Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition" is accepted in ICCV 2023.
+
+- date: Aug 2023
+  text: >-
+    Our paper "Self-regulating Prompts: Foundational Model Adaptation without Forgetting" is accepted in ICCV 2023.
+
+- date: Jun 2023
+  text: >-
+    Our paper "Toward Automatic Typography Analysis: Serif Classification and Font Similarities" is accepted in the Journal of Data Mining in Digital Humanities (JDMDH).
+
+- date: Mar 2023
+  text: >-
+    Our paper "Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting" is accepted in CVPR 2023.
+
+- date: Jun 2022
+  text: >-
+    Our paper "Using Facial Micro-Expressions in Combination With EEG and Physiological Signals for Emotion Recognition" is accepted in Frontiers in Psychology.
+
+- date: Apr 2022
+  text: >-
+    I started working as a researcher at [MBZUAI](https://mbzuai.ac.ae/). I was supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en), working on multimodal video understanding.
+
+- date: Jul 2021
+  text: >-
+    I was accepted in the ETH Robotics Summer School and Symposium.
+
+- date: Jun 2021
+  text: >-
+    I defended my [master's thesis](assets/files/msc_thesis_wasim_syedtalal.pdf) and graduated from the [IPCV](http://ipcv.eu/) master's program.
+
+- date: May 2021
+  text: >-
+    Our paper on synthetic data for object detection is accepted to CVPR 2021 CV4Animals workshop.
+
+- date: Feb 2021
+  text: >-
+    I started my master's thesis in the [CVLAB](https://www.epfl.ch/labs/cvlab/) at EPFL supervised by [Dr. Mathieu Salzmann](https://scholar.google.com/citations?user=n-B0jr4AAAAJ&hl=en&oi=ao). I worked on automated typography analysis on figurative content.
+
+- date: Jul 2020
+  text: >-
+    I started a remote research internship at the [Empathic Computing Lab](http://empathiccomputing.org/) supervised by [Dr. Mark Billinghurst](https://scholar.google.com/citations?user=S-J_ItYAAAAJ&hl=en).
+
+- date: Sep 2019
+  text: >-
+    I started my master's degree in [Image Processing and Computer Vision (IPCV)](http://ipcv.eu/) funded by the Erasmus Mundus Joint Master's Degree (EMJMD) scholarship program.
+
+- date: Jun 2019
+  text: >-
+    I completed my undergraduate degree in Electrical Engineering with a Minor in computer science. Graduated first in class with the Dean's Medal.

@@ -1,52 +1,23 @@
 ---
-layout: homepage
+layout: default
 ---
 
 ## About Me
 
-I am a PhD student, currently affiliated with the Computer Vision Group at the University of Bonn, Germany. I am supervised by [Professor Dr. Jürgen Gall](https://pages.iai.uni-bonn.de/gall_juergen/), and am working in the domain of Long-Term Multimodal Video Understanding.
+I am a PhD student in the Computer Vision Group at the University of Bonn, supervised by [Professor Dr. Jürgen Gall](https://pages.iai.uni-bonn.de/gall_juergen/). My research is on video understanding that looks forward rather than backward: anticipating what happens next in a video and, increasingly, generating it. Current work centres on reinforcement-learning post-training for generative video and world models, and on how to give a large multimodal model a new capability from little data without losing what it already knows.
 
-Previously I was an Associate Researcher in computer vision, affiliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/){:target="_blank"} at the [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}. I was supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en){:target="_blank"}.
+Before the PhD I was an Associate Researcher at the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) at [MBZUAI](https://mbzuai.ac.ae/), working with [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en) on efficient video recognition, adapting vision-language models to video, and open-vocabulary spatio-temporal grounding. Several of those models have since been adopted as backbones and baselines in subsequent video research.
 
-I completed my master's degree in [Image Processing and Computer Vision (IPCV)](http://ipcv.eu/){:target="_blank"} funded by the Erasmus Mundus Joint Master's Degree (EMJMD) scholarship program. During the master's program, I was fortunate to have interned at  the [Empathic Computing Lab](http://empathiccomputing.org/){:target="_blank"} supervised by [Dr. Mark Billinghurst](https://scholar.google.com/citations?user=S-J_ItYAAAAJ&hl=en){:target="_blank"}. I completed my [master's thesis](assets/files/msc_thesis_wasim_syedtalal.pdf){:target="_blank"} in the [CVLAB](https://www.epfl.ch/labs/cvlab/){:target="_blank"} at EPFL supervised by [Dr. Mathieu Salzmann](https://scholar.google.com/citations?user=n-B0jr4AAAAJ&hl=en&oi=ao){:target="_blank"}.
+I did my master's in [Image Processing and Computer Vision (IPCV)](http://ipcv.eu/) on an Erasmus Mundus scholarship, with my [thesis](assets/files/msc_thesis_wasim_syedtalal.pdf) at EPFL's [CVLAB](https://www.epfl.ch/labs/cvlab/) under [Dr. Mathieu Salzmann](https://scholar.google.com/citations?user=n-B0jr4AAAAJ&hl=en&oi=ao) and an internship at the [Empathic Computing Lab](http://empathiccomputing.org/) under [Dr. Mark Billinghurst](https://scholar.google.com/citations?user=S-J_ItYAAAAJ&hl=en). My undergraduate degree is in Electrical Engineering from [Habib University](https://habib.edu.pk/) in Karachi, Pakistan.
 
-I hold an undergraduate degree in Electrical Engineering, with a minor in computer science, from [Habib University](https://habib.edu.pk/){:target="_blank"} in Karachi, Paksitan.
+I'm glad to hear from prospective students and collaborators interested in any of the topics below.
 
 ## Research Interests
 
-- **Computer Vision:** image and video understanding, action anticipation, multimodal learning
-- **Machine Learning:** self-supervised learning, out-of-distribution generalization
+My work follows one line: from perceiving what is in a video, to anticipating what happens next, to generating what could happen. Three things carry through every step: multimodal alignment, computational efficiency, and adapting foundation models without erasing what they already know.
 
-## News
-<div id="news-container">
-<ul>
-    <li><strong>[Jul. 2026]</strong> Our paper titled "Open-Vocabulary Long-term Action Anticipation" is accepted in ECCV 2026.</li>
-    <li><strong>[Mar. 2026]</strong> Our paper titled "RedSage: A Cybersecurity Generalist LLM" is accepted in ICLR 2026.</li>
-    <li><strong>[Jul. 2025]</strong> Our paper titled "MixANT: Observation-dependent Memory Propagation for Stochastic Dense Action Anticipation" is accepted in ICCV 2025.</li>
-    <li><strong>[Feb. 2025]</strong> Three of our papers (Video-Panda, GroupMamba, and STING-BEE) have been accepted in CVPR 2025.</li>
-    <li><strong>[Dec. 2024]</strong> Our paper titled "Efficient Video Object Segmentation via Modulated Cross-Attention Memory" is accepted in WACV 2025.</li>
-    <li><strong>[Oct. 2024]</strong> New preprint released titled "Distillation-free Scaling of Large SSMs for Images and Videos".</li>
-    <li><strong>[Mar. 2024]</strong> Our paper titled "VideoGrounding-DINO: Towards Open-Vocabulary Spatio-Temporal Video Grounding" is accepted in CVPR 2024.</li>
-    <li><strong>[Feb. 2024]</strong> My student Muhammad Zain Yousuf's bachelor thesis titled "AR-VPT: Simple Auto-Regressive Prompts for Adapting Frozen ViTs to Videos" is accepted in VISAPP 2024.</li>
-    <li><strong>[Jan. 2024]</strong> I started a PhD at the University of Bonn, Germany working on Long-Term Multimodal Video Understanding, under the supervision of Professor Dr. Juergen Gall.</li>
-    <li><strong>[Oct. 2023]</strong> Our paper titled "Hardware Resilience Properties of Text-Guided Image Classifiers" is accepted in NeurIPS 2023.</li>
-    <li><strong>[Aug. 2023]</strong> Our paper titled "Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition" is accepted in ICCV 2023.</li>
-    <li><strong>[Aug. 2023]</strong> Our paper titled "Self-regulating Prompts: Foundational Model Adaptation without Forgetting" is accepted in ICCV 2023.</li>
-    <li><strong>[Jun. 2023]</strong> Our paper titled "Toward Automatic Typography Analysis: Serif Classification and Font Similarities" is accepted in the Journal of Data Mining in Digital Humanities (JDMDH).</li>
-    <li><strong>[Mar. 2023]</strong> Our paper titled "Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting" is accepted in CVPR 2023.</li>
-    <li><strong>[Jun. 2022]</strong> Our paper titled "Using Facial Micro-Expressions in Combination With EEG and Physiological Signals for Emotion Recognition" is accepted in the Frontiers in Psychology.</li>
-    <li><strong>[Apr. 2022]</strong> I started working as a researcher at <a href="https://mbzuai.ac.ae/" target="_blank">MBZUAI</a>. I was supervised by <a href="https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en" target="_blank">Dr. Salman Khan</a>, working on multimodal video understanding.</li>
-    <li><strong>[Jul. 2021]</strong> I was accepted in the ETH Robotics Summer School and Symposium.</li>
-    <li><strong>[Jun. 2021]</strong> I defended my <a href="assets/files/msc_thesis_wasim_syedtalal.pdf" target="_blank">master's thesis</a> and graduated from the <a href="http://ipcv.eu/" target="_blank">IPCV</a> master's program.</li>
-    <li><strong>[May. 2021]</strong> Our paper on synthetic data for object detection is accepted to CVPR 2021 CV4Animals workshop.</li>
-    <li><strong>[Feb. 2021]</strong> I started my master's thesis in the <a href="https://www.epfl.ch/labs/cvlab/" target="_blank">CVLAB</a> at EPFL supervised by <a href="https://scholar.google.com/citations?user=n-B0jr4AAAAJ&hl=en&oi=ao" target="_blank">Dr. Mathieu Salzmann</a>. I worked on automated typography analysis on figurative content.</li>
-    <li><strong>[Jul. 2020]</strong> I started a remote research internship at the <a href="http://empathiccomputing.org/" target="_blank">Empathic Computing Lab</a> supervised by <a href="https://scholar.google.com/citations?user=S-J_ItYaleksandY&hl=en" target="_blank">Dr. Mark Billinghurst</a>.</li>
-    <li><strong>[Sep. 2019]</strong> I started my master's degree in <a href="http://ipcv.eu/" target="_blank">Image Processing and Computer Vision (IPCV)</a> funded by the Erasmus Mundus Joint Master's Degree (EMJMD) scholarship program.</li>
-    <li><strong>[Jun. 2019]</strong> I completed my undergraduate degree in Electrical Engineering with a Minor in computer science. Graduated first in class with the Dean's Medal.</li>
-</ul>
-</div>
-<div id="view-more-btn">View More</div>
-
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
+- **Anticipation and world models:** long-horizon and open-vocabulary action anticipation; generative video and world models; unified models that both understand and generate
+- **Post-training foundation models:** reinforcement-learning post-training (GRPO) as targeted property transfer; preserving prior capabilities; self-rewarding formulations that rule out reward hacking
+- **Spatio-temporal grounding and segmentation:** open-vocabulary video grounding; memory-efficient long-video object segmentation; referring localization in vision-language models
+- **Efficient video architectures:** state-space models for images and video; encoder-free video-language alignment
+- **Multimodal adaptation:** prompt learning and regularized adaptation of vision-language models for zero-shot and open-vocabulary generalization

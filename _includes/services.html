@@ -1,0 +1,16 @@
+{%- assign services = site.data.services -%}
+{%- if services and services.size > 0 %}
+<section class="section" id="services" aria-labelledby="services-heading">
+  <h2 id="services-heading">Services</h2>
+  {%- for group in services %}
+  <div class="service-group">
+    <h3>{{ group.heading }}</h3>
+    <ul>
+      {%- for item in group.items %}
+      <li>{{ item }}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {%- endfor %}
+</section>
+{%- endif %}

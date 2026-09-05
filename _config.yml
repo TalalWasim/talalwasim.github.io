@@ -1,47 +1,69 @@
-# Basic Information 
+# ---------------------------------------------------------------------------
+# Site configuration. Everything you normally need to change is in this file
+# and in the _data/ folder (publications.yml, news.yml, services.yml).
+# ---------------------------------------------------------------------------
+
+# Identity (shown in the sidebar)
 title: Syed Talal Wasim
 position: Computer Vision PhD Student
 affiliation: University of Bonn
+affiliation_url: https://www.uni-bonn.de/   # optional, delete this line to show plain text
 email: wasimtalal(atsign)gmail.com
+avatar: assets/img/pic.jpg
+sidebar_align: left        # "left" or "center" - alignment of the desktop sidebar
 
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: computer vision
-description: This is the homepage of Syed Talal Wasim, a research in computer vision
-canonical: https://talalwasim.github.io/
+# Sidebar links. Order here = order on the page.
+# icon must be one of: scholar, cv, github, linkedin, x, orcid, mail, globe
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=uHySarAAAAAJ&hl=en
+    icon: scholar
+  - label: CV
+    url: assets/files/CV_Wasim_SyedTalal.pdf
+    icon: cv
+  - label: GitHub
+    url: https://github.com/TalalWasim
+    icon: github
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/wasimsyedtalal/
+    icon: linkedin
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=uHySarAAAAAJ&hl=en
-cv_link: assets/files/CV_Wasim_SyedTalal.pdf
-github_link: https://github.com/TalalWasim
-linkedin: https://www.linkedin.com/in/wasimsyedtalal/
+# Publications: this name is shown in bold in author lists (a trailing * is fine).
+highlight_author: Syed Talal Wasim
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/pic.jpg
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+# News: how many items to show before the "Show all" button.
+news_visible: 5
 
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
+# Search engines and link previews
+description: Homepage of Syed Talal Wasim, computer vision PhD student at the University of Bonn working on long-term multimodal video understanding.
+keywords: computer vision, video understanding, action anticipation, multimodal learning
+url: https://talalwasim.github.io
+og_image: assets/img/pic.jpg
 
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-# google_analytics: UA-111540567-4
+# Favicon: a monogram in the site typeface. Regenerate assets/img/favicon.* if you change it.
+favicon: assets/img/favicon.svg
+favicon_png: assets/img/favicon.png
+apple_touch_icon: assets/img/apple-touch-icon.png
 
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
+# Footer credit line ("Built with Jekyll"). Set to false to hide it.
+show_credit: true
 
-# The following files will be removed from the generated website.
+# Google Analytics 4 measurement ID (G-XXXXXXXXXX). Leave empty to disable.
+google_analytics:
+
+# ---------------------------------------------------------------------------
+# Build settings (you should not need to touch these)
+# ---------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+sass:
+  style: compressed
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
   - LICENSE
-  - minimal-light.gemspec
+  - vendor
+  - node_modules

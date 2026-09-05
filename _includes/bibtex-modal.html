@@ -1,0 +1,15 @@
+<dialog class="bibtex-dialog" id="bibtex-dialog" aria-labelledby="bibtex-dialog-title">
+  <div class="bibtex-dialog-head">
+    <h2 id="bibtex-dialog-title">BibTeX</h2>
+    <button class="icon-btn" type="button" data-bibtex-close aria-label="Close">{% include icon.html name="close" %}</button>
+  </div>
+  <pre class="bibtex-dialog-text" data-bibtex-text tabindex="0"></pre>
+  <div class="bibtex-dialog-actions">
+    <button class="btn btn-primary" type="button" data-bibtex-copy>
+      <span class="btn-icon btn-icon--copy">{% include icon.html name="copy" %}</span>
+      <span class="btn-icon btn-icon--check">{% include icon.html name="check" %}</span>
+      <span data-bibtex-copy-label>Copy</span>
+    </button>
+    <button class="btn" type="button" data-bibtex-close>Close</button>
+  </div>
+</dialog>

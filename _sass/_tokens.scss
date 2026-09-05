@@ -1,0 +1,68 @@
+// ---------------------------------------------------------------------------
+// Design tokens. Colours are CSS custom properties so the theme can be
+// switched at runtime; everything else is a Sass variable.
+// ---------------------------------------------------------------------------
+
+// Apply `@include dark { ... }` to a selector to style it for dark mode.
+// Dark applies when the OS prefers dark and no override is set,
+// or when the toggle set data-theme="dark".
+@mixin dark {
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) & { @content; }
+  }
+  :root[data-theme="dark"] & { @content; }
+}
+
+@mixin dark-tokens {
+  --bg: #111417;
+  --bg-elev: #1a1e23;
+  --ink: #e8eaed;
+  --ink-2: #a5abb4;
+  --ink-3: #737a85;
+  --rule: #272c33;
+  --rule-strong: #3a414a;
+  --accent: #63c1d3;
+  --accent-strong: #8ad3e1;
+  --accent-ink: #0b1a1e;
+  --accent-soft: rgba(99, 193, 211, 0.14);
+  --figure-bg: #ffffff;
+  --shadow: 0 16px 48px rgba(0, 0, 0, 0.55);
+}
+
+:root {
+  color-scheme: light;
+
+  // Light palette: white paper, near-black ink, a single petrol accent
+  // reserved for interactive things.
+  --bg: #ffffff;
+  --bg-elev: #f4f5f7;
+  --ink: #17191c;
+  --ink-2: #5b6169;
+  --ink-3: #8b919a;
+  --rule: #e4e7eb;
+  --rule-strong: #cfd4da;
+  --accent: #0e6b7d;
+  --accent-strong: #0a5361;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(14, 107, 125, 0.10);
+  --figure-bg: #ffffff;
+  --shadow: 0 16px 48px rgba(23, 25, 28, 0.18);
+
+  // Publication figures: tune these two to change the teaser size.
+  --pub-figure-width: 220px;
+  --pub-figure-max-height: 150px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { color-scheme: dark; @include dark-tokens; }
+}
+:root[data-theme="dark"] { color-scheme: dark; @include dark-tokens; }
+
+// Type
+$font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+$font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+
+// Breakpoints
+$bp-tablet: 900px;   // below this: single column
+$bp-phone: 600px;    // below this: publications stack, news stacks

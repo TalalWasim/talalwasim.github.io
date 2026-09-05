@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------------------
+# Services. Each group is a heading followed by a list.
+# ---------------------------------------------------------------------------
+
+- heading: Journal reviewer
+  items:
+    - Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+    - Transactions on Neural Networks and Learning Systems (TNNLS)
+    - Transactions on Image Processing (TIP)
+    - Transactions on Machine Learning Research (TMLR)
+    - International Journal of Computer Vision (IJCV)
+    - Pattern Recognition
+
+- heading: Conference reviewer
+  items:
+    - Computer vision (CVPR, ICCV, ECCV, WACV, ACCV)
+    - Artificial intelligence and machine learning (NeurIPS, ICLR, ICML, AAAI)
+
+- heading: Project supervision
+  items:
+    - Co-supervise undergraduate projects in computer vision at Habib University
+    - Co-supervise high-school students in Pakistan for the Intel International Science and Engineering Fair (ISEF)

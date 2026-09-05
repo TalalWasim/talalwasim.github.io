@@ -1,0 +1,302 @@
+# ---------------------------------------------------------------------------
+# Publications. Top-to-bottom order here is the order on the page.
+#
+# Two kinds of entries:
+#
+#   - category: "2025"            a divider line with a label. Use any text
+#                                 ("Preprints", "Journal articles", ...). As many as you like.
+#
+#   - title: ...                  a paper. Fields:
+#     authors: ...                  plain text; your name (highlight_author in _config.yml) is bolded automatically
+#     venue: ...                    shown under the authors (optional)
+#     badge: ...                    short tag on the image corner (optional)
+#     award: ...                    e.g. "Oral", "Best paper" - shown next to the venue (optional)
+#     image: ...                    teaser image path (optional)
+#     links:                        any label -> URL, shown as buttons in this order (optional)
+#       Paper: https://...
+#       Code: https://...
+#     bibtex: |                     BibTeX block; the button only appears when present (optional)
+#       @inproceedings{...}
+# ---------------------------------------------------------------------------
+
+- category: "2026"
+
+- title: "Open-Vocabulary Long-term Action Anticipation"
+  authors: "Syed Talal Wasim, Jinhui Yi, Hamid Suleman, Ahmad Javed, Yanan Luo, Muzammal Naseer and Juergen Gall"
+  venue: "ECCV, 2026"
+  badge: ECCV
+  image: assets/paper_imgs/mhcad.png
+  links:
+    Paper: https://eccv.ecva.net/virtual/2026/poster/4830
+    Project page: https://jh-yi.github.io/OpenVocab-Ant/
+  bibtex: |
+    @inproceedings{wasim2026openVocabAnt,
+      title={Open-Vocabulary Long-term Action Anticipation},
+      author={Syed Talal Wasim and Jinhui Yi and Hamid Suleman and Ahmad Javed and Yanan Luo and Muzammal Naseer and Juergen Gall},
+      booktitle={ECCV},
+      year={2026}
+    }
+
+- title: "RedSage: A Cybersecurity Generalist LLM"
+  authors: "Naufal Suryanto, Muzammal Naseer, Pengfei Li, Syed Talal Wasim, Jinhui Yi, Juergen Gall, Paolo Ceravolo, Ernesto Damiani"
+  venue: "ICLR, 2026"
+  badge: ICLR
+  image: assets/paper_imgs/redsage.png
+  links:
+    Paper: https://arxiv.org/pdf/2601.22159
+    Project page: https://risys-lab.github.io/RedSage/
+  bibtex: |
+    @inproceedings{suryanto2026redsage,
+      title={RedSage: A Cybersecurity Generalist LLM},
+      author={Naufal Suryanto and Muzammal Naseer and Pengfei Li and Syed Talal Wasim and Jinhui Yi and Juergen Gall and Paolo Ceravolo and Ernesto Damiani},
+      booktitle={ICLR},
+      year={2026}
+    }
+
+- category: "2025"
+
+- title: "MixANT: Observation-dependent Memory Propagation for Stochastic Dense Action Anticipation"
+  authors: "Syed Talal Wasim, Hamid Suleman, Olga Zatsarynna, Muzammal Naseer and Juergen Gall"
+  venue: "ICCV, 2025"
+  badge: ICCV
+  image: assets/paper_imgs/mixant.jpeg
+  links:
+    Paper: https://arxiv.org/abs/2509.11394
+    Project page: https://talalwasim.github.io/MixANT/
+  bibtex: |
+    @inproceedings{wasim2025mixant,
+      title={MixANT: Observation-dependent Memory Propagation for Stochastic Dense Action Anticipation},
+      author={Syed Talal Wasim and Hamid Suleman and Olga Zatsarynna and Muzammal Naseer and Juergen Gall},
+      booktitle={ICCV},
+      year={2025}
+    }
+
+- title: "Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models"
+  authors: "Jinhui Yi*, Syed Talal Wasim*, Yanan Luo*, Muzammal Naseer and Juergen Gall"
+  venue: "CVPR, 2025"
+  badge: CVPR
+  image: assets/paper_imgs/vpanda.jpg
+  links:
+    Paper: https://arxiv.org/abs/2412.18609
+    Project page: https://jh-yi.github.io/Video-Panda/
+  bibtex: |
+    @inproceedings{yi2025vpanda,
+      title={Video-Panda: Parameter-efficient Alignment for Encoder-free Video-Language Models},
+      author={Jinhui Yi* and Syed Talal Wasim* and Yanan Luo* and Muzammal Naseer and Juergen Gall},
+      booktitle={CVPR},
+      year={2025}
+    }
+
+- title: "GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model"
+  authors: "Abdelrahman Shaker, Syed Talal Wasim, Salman Khan, and Fahad Shahbaz Khan"
+  venue: "CVPR, 2025"
+  badge: CVPR
+  image: assets/paper_imgs/groupmamba.png
+  links:
+    Paper: https://arxiv.org/abs/2407.13772
+    Code: https://github.com/Amshaker/GroupMamba
+  bibtex: |
+    @inproceedings{shaker2024groupmamba,
+      title={GroupMamba: Parameter-Efficient and Accurate Group Visual State Space Model},
+      author={Abdelrahman Shaker and Syed Talal Wasim and Salman Khan and Juergen Gall and Fahad Shahbaz Khan},
+      booktitle={CVPR},
+      year={2025}
+    }
+
+- title: "STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection"
+  authors: "D. Velayudhan, A. Ahmed, M. Alansari, N. Gour, A. Behouch, T. Hassan, Syed Talal Wasim, N. Maalej, M. Naseer, J. Gall, M. Bennamoun, E. Damiani and N. Werghi"
+  venue: "CVPR, 2025"
+  badge: CVPR
+  image: assets/paper_imgs/sting.jpg
+  links:
+    Paper: https://arxiv.org/abs/2504.02823
+    Code: https://github.com/Divs1159/STING-BEE
+  bibtex: |
+    @inproceedings{velayudhan2024sting,
+      title={STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection},
+      author={Divya Velayudhan and Abdelfatah Ahmed and Mohamad Alansari and Neha Gour and Abderaouf Behouch and Taimur Hassan and Syed Talal Wasim and Nabil Maalej and Muzammal Naseer and Juergen Gall and Mohammed Bennamoun and Ernesto Damiani and Naoufel Werghi},
+      booktitle={CVPR},
+      year={2025}
+    }
+
+- title: "Efficient Video Object Segmentation via Modulated Cross-Attention Memory"
+  authors: "Abdelrahman Shaker, Syed Talal Wasim, Martin Danelljan, Salman Khan, Ming-Hsuan Yang and Fahad Shahbaz Khan"
+  venue: "WACV, 2025"
+  badge: WACV
+  image: assets/paper_imgs/mavos.png
+  links:
+    Paper: https://arxiv.org/abs/2403.17937
+    Code: https://github.com/Amshaker/MAVOS
+  bibtex: |
+    @inproceedings{shaker2025mavos,
+      title={Efficient Video Object Segmentation via Modulated Cross-Attention Memory},
+      author={Abdelrahman Shaker and Syed Talal Wasim and Martin Danelljan and Salman Khan and Ming-Hsuan Yang and Fahad Shahbaz Khan},
+      booktitle={WACV},
+      year={2025}
+    }
+
+- title: "Distillation-free Scaling of Large State-Space Models for Images and Videos"
+  authors: "Hamid Suleman*, Syed Talal Wasim*, Muzammal Naseer and Juergen Gall"
+  venue: "IJCV"
+  badge: IJCV
+  image: assets/paper_imgs/stablemamba.png
+  links:
+    Paper: https://arxiv.org/abs/2409.11867
+    Code: https://talalwasim.github.io
+  bibtex: |
+    @article{suleman2026stablemamba,
+      title={Distillation-free Scaling of Large State-Space Models for Images and Videos},
+      author={Hamid Suleman* and Syed Talal Wasim* and Muzammal Naseer and Juergen Gall},
+      journal={IJCV},
+      year={2026}
+    }
+
+- category: "2024"
+
+- title: "Video-GroundingDINO: Towards Open-Vocabulary Spatio-Temporal Video Grounding"
+  authors: "Syed Talal Wasim, Muzammal Naseer, Salman Khan, Ming-Hsuan Yang and Fahad Shahbaz Khan"
+  venue: "CVPR, 2024"
+  badge: CVPR
+  image: assets/paper_imgs/vgdino.png
+  links:
+    Paper: https://arxiv.org/abs/2401.00901
+    Code: https://talalwasim.github.io
+  bibtex: |
+    @inproceedings{wasim2024vgdino,
+      title={Video-GroundingDINO: Towards Open-Vocabulary Spatio-Temporal Video Grounding},
+      author={Syed Talal Wasim and Muzammal Naseer and Salman Khan and Ming-Hsuan Yang and Fahad Shahbaz Khan},
+      booktitle={CVPR},
+      year={2024}
+    }
+
+- title: "AR-VPT: Simple Auto-Regressive Prompts for Adapting Frozen ViTs to Videos"
+  authors: "Muhammad Zain Yousuf, Syed Talal Wasim, Syed Nouman Hasany and Muhammad Farhan"
+  venue: "VISAPP, 2024"
+  badge: VISAPP
+  image: assets/paper_imgs/arvpt.png
+  links:
+    Paper: https://doi.org/10.5220/0012392000003660
+    Code: https://talalwasim.github.io
+  bibtex: |
+    @inproceedings{yousuf2024arvpt,
+      title={AR-VPT: Simple Auto-Regressive Prompts for Adapting Frozen ViTs to Videos},
+      author={Muhammad Zain Yousuf and Syed Talal Wasim and Syed Nouman Hasany and Muhammad Farhan},
+      booktitle={VISAPP},
+      year={2024}
+    }
+
+- category: "2023"
+
+- title: "Hardware Resilience Properties of Text-Guided Image Classifiers"
+  authors: "Syed Talal Wasim, Kabila Haile Soboka, Abdulrahman Mahmoud, Salman Khan, David Brooks and Gu-Yeon Wei"
+  venue: "NeurIPS, 2023"
+  badge: NeurIPS
+  image: assets/paper_imgs/textres.png
+  links:
+    Paper: https://arxiv.org/abs/2311.14062
+    Code: https://github.com/TalalWasim/TextGuidedResilience
+  bibtex: |
+    @inproceedings{wasim2023textres,
+      title={Hardware Resilience Properties of Text-Guided Image Classifiers},
+      author={Syed Talal Wasim and Kabila Haile Soboka and Abdulrahman Mahmoud and Salman Khan and David Brooks and Gu-Yeon Wei},
+      booktitle={NeurIPS},
+      year={2023}
+    }
+
+- title: "Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition"
+  authors: "Syed Talal Wasim*, Muhammad Uzair Khattak*, Muzammal Naseer, Salman Khan, Mubarak Shah and Fahad Shahbaz Khan"
+  venue: "ICCV, 2023"
+  badge: ICCV
+  image: assets/paper_imgs/vfn.png
+  links:
+    Paper: https://arxiv.org/abs/2307.06947
+    Code: https://github.com/TalalWasim/Video-FocalNets
+  bibtex: |
+    @inproceedings{wasim2023vfn,
+      title={Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition},
+      author={Syed Talal Wasim* and Muhammad Uzair Khattak* and Muzammal Naseer and Salman Khan and Mubarak Shah and Fahad Shahbaz Khan},
+      booktitle={ICCV},
+      year={2023}
+    }
+
+- title: "Self-regulating Prompts: Foundational Model Adaptation without Forgetting"
+  authors: "Muhammad Uzair Khattak*, Syed Talal Wasim*, Muzammal Naseer, Salman Khan, Ming-Hsuan Yang and Fahad Shahbaz Khan"
+  venue: "ICCV, 2023"
+  badge: ICCV
+  image: assets/paper_imgs/promptsrc.jpg
+  links:
+    Paper: https://arxiv.org/abs/2307.06948
+    Code: https://github.com/muzairkhattak/PromptSRC
+  bibtex: |
+    @inproceedings{khattak2023promptsrc,
+      title={Self-regulating Prompts: Foundational Model Adaptation without Forgetting},
+      author={Muhammad Uzair Khattak* and Syed Talal Wasim* and Muzammal Naseer and Salman Khan and Ming-Hsuan Yang and Fahad Shahbaz Khan},
+      booktitle={ICCV},
+      year={2023}
+    }
+
+- title: "Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting"
+  authors: "Syed Talal Wasim, Muzammal Naseer, Salman Khan, Fahad Shahbaz Khan and Mubarak Shah"
+  venue: "CVPR, 2023"
+  badge: CVPR
+  image: assets/paper_imgs/vita.png
+  links:
+    Paper: https://arxiv.org/abs/2304.03307
+    Code: https://github.com/TalalWasim/Vita-CLIP
+  bibtex: |
+    @inproceedings{wasim2023vita,
+      title={Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting},
+      author={Syed Talal Wasim and Muzammal Naseer and Salman Khan and Fahad Shahbaz Khan and Mubarak Shah},
+      booktitle={CVPR},
+      year={2023}
+    }
+
+- title: "Toward Automatic Typography Analysis: Serif Classification and Font Similarities"
+  authors: "Syed Talal Wasim, Romain Collaud, Lara Défayes, Nicolas Henchoz, Mathieu Salzmann and Delphine Ribes"
+  venue: "Journal of Data Mining in Digital Humanities, 2023"
+  badge: JDMDH
+  image: assets/paper_imgs/gest.jpg
+  links:
+    Paper: https://jdmdh.episciences.org/paper/view/id/13008
+    Code: https://github.com/TalalWasim/GEST-Serif
+  bibtex: |
+    @article{wasim2023gest,
+      title={Toward automatic typography analysis: serif classification and font similarities},
+      author={Syed Talal Wasim and Romain Collaud and Lara Défayes and Nicolas Henchoz and Mathieu Salzmann and Delphine Ribes},
+      journal={Journal of Data Mining in Digital Humanities (JDMDH)},
+      year={2023}
+    }
+
+- category: "2022"
+
+- title: "Using Facial Micro-Expressions in Combination With EEG and Physiological Signals for Emotion Recognition"
+  authors: "Nastaran Saffaryazdi, Syed Talal Wasim, Kuldeep Dileep, Alireza Farrokhi Nia, Suranga Nanayakkara, Elizabeth Broadbent and Mark Billinghurst"
+  venue: "Frontiers in Psychology, 2022"
+  badge: Frontiers
+  image: assets/paper_imgs/ecl.jpg
+  links:
+    Paper: https://www.frontiersin.org/articles/10.3389/fpsyg.2022.864047/full
+  bibtex: |
+    @article{wasim2022ecl,
+      title={Using facial micro-expressions in combination with EEG and physiological signals for emotion recognition},
+      author={Nastaran Saffaryazdi and Syed Talal Wasim and Kuldeep Dileep and Alireza Farrokhi Nia and Suranga Nanayakkara and Elizabeth Broadbent and Mark Billinghurst},
+      journal={Frontiers in Psychology},
+      year={2022}
+    }
+
+- category: "2021"
+
+- title: "Sim-to-Real Transfer for Object Detection and Localization on Animals"
+  authors: "Syed Talal Wasim, Syed N. Hasany, Kainat Abbasi, Huda Feroz, Anisa A. Ahmed, Mudasir H. Shaikh and Muhammad Farhan"
+  venue: "CV4Animals Workshop, CVPR 2021"
+  badge: CVPRW
+  image: assets/paper_imgs/cv4animals.png
+  links:
+    Poster: assets/paper_pdfs/cv4animals.pdf
+  bibtex: |
+    @inproceedings{wasim2021cv4animals,
+      title={Sim-to-Real Transfer for Object Detection and Localization on Animals},
+      author={Syed Talal Wasim and Syed N. Hasany and Kainat Abbasi and Huda Feroz and Anisa A. Ahmed and Mudasir H. Shaikh and Muhammad Farhan},
+      booktitle={CV4Animals CVPR Workshop},
+      year={2021}
+    }

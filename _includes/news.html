@@ -1,0 +1,18 @@
+{%- assign news = site.data.news -%}
+{%- if news and news.size > 0 %}
+{%- assign visible = site.news_visible | default: 5 %}
+<section class="section" id="news" aria-labelledby="news-heading">
+  <h2 id="news-heading">News</h2>
+  <ul class="news" data-news data-visible="{{ visible }}">
+    {%- for item in news %}
+    <li class="news-item"{% if forloop.index > visible %} hidden{% endif %}>
+      <span class="news-date">{{ item.date }}</span>
+      <div class="news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- if news.size > visible %}
+  <button class="btn btn-ghost" type="button" data-news-toggle aria-expanded="false">Show all {{ news.size }} updates</button>
+  {%- endif %}
+</section>
+{%- endif %}

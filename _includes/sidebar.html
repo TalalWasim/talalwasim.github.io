@@ -1,0 +1,46 @@
+<header class="sidebar{% if site.sidebar_align == "center" %} sidebar--center{% endif %}">
+  <div class="identity">
+    {%- if site.avatar %}
+    <img class="avatar" src="{{ site.avatar }}" alt="Portrait of {{ site.title }}" width="120" height="120">
+    {%- endif %}
+    <div class="identity-text">
+      <h1 class="name">{{ site.title }}</h1>
+      {%- if site.position %}
+      <p class="position">{{ site.position }}</p>
+      {%- endif %}
+      {%- if site.affiliation %}
+      <p class="affiliation">
+        {%- if site.affiliation_url -%}
+        <a href="{{ site.affiliation_url }}" rel="noopener">{{ site.affiliation }}</a>
+        {%- else -%}
+        {{ site.affiliation }}
+        {%- endif -%}
+      </p>
+      {%- endif %}
+      {%- if site.email %}
+      <p class="email">{{ site.email }}</p>
+      {%- endif %}
+    </div>
+  </div>
+
+  {%- if site.links and site.links.size > 0 %}
+  <nav class="links" aria-label="Profiles and documents">
+    <ul>
+      {%- for link in site.links %}
+      <li>
+        <a href="{{ link.url }}" rel="noopener">
+          {%- include icon.html name=link.icon -%}
+          <span>{{ link.label }}</span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </nav>
+  {%- endif %}
+
+  <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+    <span class="theme-toggle-icon theme-toggle-icon--moon">{% include icon.html name="moon" %}</span>
+    <span class="theme-toggle-icon theme-toggle-icon--sun">{% include icon.html name="sun" %}</span>
+    <span class="theme-toggle-label" data-theme-label>Dark mode</span>
+  </button>
+</header>

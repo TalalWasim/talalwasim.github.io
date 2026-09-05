@@ -1,0 +1,49 @@
+{%- assign pubs = site.data.publications -%}
+{%- if pubs and pubs.size > 0 %}
+{%- assign me = site.highlight_author | default: site.title %}
+{%- capture me_bold %}<strong class="me">{{ me }}</strong>{% endcapture %}
+<section class="section" id="publications" aria-labelledby="publications-heading">
+  <h2 id="publications-heading">Publications</h2>
+  <ul class="pubs">
+    {%- for pub in pubs %}
+    {%- if pub.category %}
+    <li class="pub-category" role="presentation"><h3>{{ pub.category }}</h3></li>
+    {%- else %}
+    <li class="pub{% unless pub.image %} pub--no-image{% endunless %}">
+      {%- if pub.image %}
+      <figure class="pub-figure">
+        <img src="{{ pub.image }}" alt="" loading="lazy" decoding="async">
+        {%- if pub.badge %}
+        <figcaption class="pub-badge">{{ pub.badge }}</figcaption>
+        {%- endif %}
+      </figure>
+      {%- endif %}
+      <div class="pub-body">
+        <h4 class="pub-title">{{ pub.title }}</h4>
+        {%- if pub.authors %}
+        <p class="pub-authors">{{ pub.authors | replace: me, me_bold }}</p>
+        {%- endif %}
+        {%- if pub.venue or pub.award %}
+        <p class="pub-venue">
+          {%- if pub.venue %}{{ pub.venue }}{% endif -%}
+          {%- if pub.award %} <span class="pub-award">{{ pub.award }}</span>{% endif -%}
+        </p>
+        {%- endif %}
+        {%- if pub.links or pub.bibtex %}
+        <div class="pub-links">
+          {%- for link in pub.links %}
+          <a class="btn" href="{{ link[1] }}" rel="noopener">{{ link[0] }}</a>
+          {%- endfor %}
+          {%- if pub.bibtex %}
+          <button class="btn" type="button" data-bibtex-button>BibTeX</button>
+          <pre class="pub-bibtex" hidden>{{ pub.bibtex | strip | escape }}</pre>
+          {%- endif %}
+        </div>
+        {%- endif %}
+      </div>
+    </li>
+    {%- endif %}
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}
